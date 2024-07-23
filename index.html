@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coral Buy</title>
-    <!-- Fontlar Buraya Gelecek -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <!-- Kodlar buraya gelecek -->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORAL BUY</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <div>
+              <form action="">
+                <input type="search" required>
+                <i class="fa fa-search"></i>
+                <button onclick="clearInput()">Clear</a>
+              </form>
+            </div>
+        </div>
+        <div class="logo">
+          <a href="#"><img src="images/header/logo.png" alt="coral_logo"></a>
+        </div>
+        <div class="right-section">
+          <a href="#"><img src="images/header/icon_account.png" alt="Account"> Account</a>
+          <a href="#"><img src="images/header/icon_shoping.png" alt="Shoping"> Shopping</a>
+        </div>
+    </div>
+    <div class="nav">
+        <ul class="menu">
+            <li><a href="#">Jewelry & Accessories</a></li>
+            <li><a href="#">Clothing & Shoes</a></li>
+            <li><a href="#">Home & Living</a></li>
+            <li><a href="#">Wedding & Party</a></li>
+            <li><a href="#">Toys & Entertainment</a></li>
+            <li><a href="#">Art & Collectibles</a></li>
+            <li><a href="#">Craft Supplies & Tools</a></li>
+        </ul>
+    </div>
+
+    <main>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+      const clearInput = () => {
+  const input = document.getElementsByTagName("input")[0];
+  input.value = "";
+}
+    </script>
+</body>
 </html>
