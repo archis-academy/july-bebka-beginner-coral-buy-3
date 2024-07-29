@@ -2,4 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  div{
+    display: inline;
+    margin: auto;
+    width: 200px;
+    height: 70px;
+    margin: auto 200px;
+  }
 }
