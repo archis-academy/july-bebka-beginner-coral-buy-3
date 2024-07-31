@@ -3,3 +3,178 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
+.best-sellers{
+  width: 100%;
+  height: auto;
+  margin: 40px auto;
+}
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.top-section-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-tab {
+  min-width: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center; 
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  white-space: nowrap;
+}
+
+.item-tab.active {
+  color: #000000;
+}
+
+.categories button, .show-all { 
+  width: 93px;
+  height: 32px;
+  padding: 5px 15px 5px 15px;
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  background-color: #1E2832;
+  color: #fff;
+}
+
+.categories button:hover, .show-all:hover {
+  background-color: #FF6F61;
+  transition-duration: 0.6s;
+}
+
+.products-slider {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 478px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+.slider-wrapper {
+  display: flex;
+  justify-content: space-between; 
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+.product-card {
+  width: 312px;
+  height: 478px;
+  border-radius: 5px;
+}
+.slider-arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.slider-arrow img {
+  width: 40px;
+  height: 40px;
+}
+.left-arrow {
+  left: 10px;
+}
+.right-arrow {
+  right: 10px;
+}
+
+.ribbon {
+  position: absolute;
+  width: 52px;
+  top: 22px;
+  background: #FF6F61;
+  color: #fff;
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.top-product{
+  width: 312px;
+  height: 400px;
+}
+
+.bottom-product {
+  display: flex;
+  flex-direction: column; 
+  padding-top: 15px;
+  padding-inline: 5px;
+}
+
+.product-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 22px;
+}
+
+.product-details {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-top: 5px; 
+}
+
+.price-container {
+  display: flex; 
+  align-items: flex-end; 
+}
+
+.product-price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.34px;
+}
+
+.product-price.old-price {
+  text-decoration: line-through; 
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 10px; 
+  font-size: 14px;
+}
+
+.product-price.current-price {
+  color: #FF6F61; 
+}
+
+.product-type {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+/* melikeunsaldi/BE-20/Best-Sellers-Carousel part ends */
+
+
+
