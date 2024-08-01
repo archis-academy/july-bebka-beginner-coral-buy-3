@@ -171,6 +171,9 @@ form:valid button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-image: url(../images/top_main/flower-pattern.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .image-flower{
