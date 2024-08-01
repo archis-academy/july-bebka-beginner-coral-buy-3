@@ -2,12 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-  div{
+}
+
+
+
+
+
+
+
+
+
+ .brand-logos {
     display: inline;
-    margin: auto;
+    margin: 100px auto;
     width: 200px;
     height: 70px;
-    margin: auto 200px;
+    size
   }
-}
