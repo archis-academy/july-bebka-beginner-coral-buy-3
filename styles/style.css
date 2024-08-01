@@ -11,11 +11,17 @@
 
 
 
+/* Cerenucakb/BE-7-Brand-Logos */
 
  .brand-logos {
-    display: inline;
-    margin: 100px auto;
-    width: 200px;
-    height: 70px;
-    size
+    width: 1320px;
+    display:flex ; 
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px; 
+    margin-left: 300px;
   }
+
+
+/* END Cerenucakb/BE-7-Brand-Logos */
