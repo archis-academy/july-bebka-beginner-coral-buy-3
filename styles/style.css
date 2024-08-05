@@ -10,7 +10,8 @@
   height: auto;
   margin: 40px auto;
 }
-.section-title {
+
+.best-sellers .section-title {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 50px;
@@ -18,18 +19,18 @@
   margin: 0 auto 20px;
 }
 
-.top-section-products {
+.best-sellers .top-section-products {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.categories {
+.best-sellers .categories {
   display: flex;
   justify-content: space-between;
 }
 
-.item-tab {
+.best-sellers .item-tab {
   min-width: 90px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -43,16 +44,16 @@
   cursor: default;
 }
 
-.item-tab.active {
+.best-sellers .item-tab.active {
   color: #000000;
 }
 
-.item-tab:not(.active):hover {
+.best-sellers .item-tab:not(.active):hover {
   color: #FF6F61;
   transition-duration: 0.5s;
 }
 
-.categories button, .show-all { 
+.best-sellers .categories button, .show-all { 
   width: 93px;
   height: 32px;
   padding: 5px 15px 5px 15px;
@@ -65,12 +66,12 @@
   color: #fff;
 }
 
-.categories button:hover, .show-all:hover {
+.best-sellers .categories button:hover, .show-all:hover {
   background-color: #FF6F61;
   transition-duration: 0.5s;
 }
 
-.best-sellers-slider {
+.best-sellers .best-sellers-slider {
   display: flex;
   align-items: center;
   position: relative;
@@ -80,45 +81,39 @@
   overflow: hidden;
 }
 
-.slider-wrapper {
+.best-sellers .slider-wrapper {
   display: flex;
   justify-content: space-between; 
   transition: transform 0.5s ease-in-out;
   width: 100%;
 }
 
-.bs-product-card {
+.best-sellers .bs-product-card {
   width: 312px;
   height: 478px;
   border-radius: 5px;
 }
 
-.slider-arrow {
+.best-sellers .slider-arrow {
   position: absolute;
   transform: translateY(-50%);
   cursor: pointer;
 }
 
-.bs-left-arrow img , .bs-right-arrow img {
+.best-sellers .slider-arrow img {
   width: 40px;
   height: 40px;
 }
 
-.bs-left-arrow {
-  position: absolute;
-  transform: translateY(-50%);
-  cursor: pointer;
+.best-sellers .left-arrow {
   left: 10px;
 }
 
-.bs-right-arrow {
-  position: absolute;
-  transform: translateY(-50%);
-  cursor: pointer;
+.best-sellers .right-arrow {
   right: 10px;
 }
 
-.bs-product-card .ribbon {
+.best-sellers .ribbon {
   position: absolute;
   width: 52px;
   top: 22px;
@@ -131,68 +126,68 @@
   text-align: center;
 }
 
-.bs-product-card img {
+.best-sellers .bs-product-card img {
   width: 100%;
   height: 400px;
   object-fit: cover;
   margin-bottom: 10px;
 }
 
-.bs-product-card .top-product{
+.best-sellers .bs-product-card .top-product{
   width: 312px;
   height: 400px;
   transition: opacity 0.4s ease;
 }
 
-.bs-product-card .top-product:hover{
+.best-sellers .bs-product-card .top-product:hover{
   opacity: 0.6;
 }
 
-.bs-product-card .bottom-product {
+.best-sellers .bs-product-card .bottom-product {
   display: flex;
   flex-direction: column; 
   padding-top: 15px;
   padding-inline: 5px;
 }
 
-.bs-product-card .product-title {
+.best-sellers .bs-product-card .product-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 22px;
 }
 
-.bs-product-card .product-details {
+.best-sellers .bs-product-card .product-details {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
   margin-top: 5px; 
 }
 
-.bs-product-card .price-container {
+.best-sellers .bs-product-card .price-container {
   display: flex; 
   align-items: flex-end; 
 }
 
-.bs-product-card .product-price {
+.best-sellers .bs-product-card .product-price {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.34px;
 }
 
-.bs-product-card .product-price.old-price {
+.best-sellers .bs-product-card .product-price.old-price {
   text-decoration: line-through; 
   color: rgba(0, 0, 0, 0.5);
   margin-right: 10px; 
   font-size: 14px;
 }
 
-.bs-product-card .product-price.current-price {
+.best-sellers .bs-product-card .product-price.current-price {
   color: #FF6F61; 
 }
 
-.bs-product-card .product-type {
+.best-sellers .bs-product-card .product-type {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -200,6 +195,7 @@
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
 }
+
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part ends */
 
 
