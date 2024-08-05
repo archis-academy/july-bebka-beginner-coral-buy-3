@@ -99,20 +99,26 @@
   cursor: pointer;
 }
 
-.slider-arrow img {
+.bs-left-arrow img , .bs-right-arrow img {
   width: 40px;
   height: 40px;
 }
 
-.left-arrow {
+.bs-left-arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
   left: 10px;
 }
 
-.right-arrow {
+.bs-right-arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
   right: 10px;
 }
 
-.ribbon {
+.bs-product-card .ribbon {
   position: absolute;
   width: 52px;
   top: 22px;
