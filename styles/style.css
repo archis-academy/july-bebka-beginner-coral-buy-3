@@ -5,13 +5,15 @@
 }
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
 .best-sellers{
+  max-width: 1320px;
   width: 100%;
   height: auto;
   margin: 40px auto;
 }
 .section-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 50px;
   text-align: center;
   margin: 0 auto 20px;
 }
@@ -38,10 +40,16 @@
   align-items: center;
   justify-content: center; 
   white-space: nowrap;
+  cursor: default;
 }
 
 .item-tab.active {
   color: #000000;
+}
+
+.item-tab:not(.active):hover {
+  color: #FF6F61;
+  transition-duration: 0.5s;
 }
 
 .categories button, .show-all { 
@@ -59,10 +67,10 @@
 
 .categories button:hover, .show-all:hover {
   background-color: #FF6F61;
-  transition-duration: 0.6s;
+  transition-duration: 0.5s;
 }
 
-.products-slider {
+.best-sellers-slider {
   display: flex;
   align-items: center;
   position: relative;
@@ -71,29 +79,35 @@
   margin-top: 25px;
   overflow: hidden;
 }
+
 .slider-wrapper {
   display: flex;
   justify-content: space-between; 
   transition: transform 0.5s ease-in-out;
   width: 100%;
 }
-.product-card {
+
+.bs-product-card {
   width: 312px;
   height: 478px;
   border-radius: 5px;
 }
+
 .slider-arrow {
   position: absolute;
   transform: translateY(-50%);
   cursor: pointer;
 }
+
 .slider-arrow img {
   width: 40px;
   height: 40px;
 }
+
 .left-arrow {
   left: 10px;
 }
+
 .right-arrow {
   right: 10px;
 }
@@ -111,62 +125,68 @@
   text-align: center;
 }
 
-.product-card img {
+.bs-product-card img {
   width: 100%;
   height: 400px;
   object-fit: cover;
   margin-bottom: 10px;
 }
-.top-product{
+
+.bs-product-card .top-product{
   width: 312px;
   height: 400px;
+  transition: opacity 0.4s ease;
 }
 
-.bottom-product {
+.bs-product-card .top-product:hover{
+  opacity: 0.6;
+}
+
+.bs-product-card .bottom-product {
   display: flex;
   flex-direction: column; 
   padding-top: 15px;
   padding-inline: 5px;
 }
 
-.product-title {
+.bs-product-card .product-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 22px;
 }
 
-.product-details {
+.bs-product-card .product-details {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
   margin-top: 5px; 
 }
 
-.price-container {
+.bs-product-card .price-container {
   display: flex; 
   align-items: flex-end; 
 }
 
-.product-price {
+.bs-product-card .product-price {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.34px;
 }
 
-.product-price.old-price {
+.bs-product-card .product-price.old-price {
   text-decoration: line-through; 
   color: rgba(0, 0, 0, 0.5);
   margin-right: 10px; 
   font-size: 14px;
 }
 
-.product-price.current-price {
+.bs-product-card .product-price.current-price {
   color: #FF6F61; 
 }
 
-.product-type {
+.bs-product-card .product-type {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
