@@ -15,12 +15,11 @@
 
  .brand-logos {
     width: 1320px;
-    display:flex ; 
-    padding-top: 50px;
+    padding-block: 50px;
+    display:flex ;
     justify-content: space-around;
-    align-items: center;
-    height: 70px; 
-    margin-left: 300px;
+    margin-inline: auto;
+    
   }
 
 
