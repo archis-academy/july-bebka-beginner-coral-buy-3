@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Cerenucakb/BE-7-Brand-Logos */
+.brand-logos {
+  width: 1320px;
+  padding-block: 50px;
+  display:flex ;
+  justify-content: space-around;
+  margin-inline: auto;  
+}
+/* END Cerenucakb/BE-7-Brand-Logos */
+
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
 .best-sellers{
   max-width: 1320px;
@@ -197,6 +207,3 @@
 }
 
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part ends */
-
-
-
