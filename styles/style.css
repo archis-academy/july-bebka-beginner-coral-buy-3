@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+content
 
 
 * {
@@ -8,58 +8,60 @@
   box-sizing: border-box;
 }
 
-/* BE-6 MELEK CSS BAŞLANGIÇ */
-  .section-content{
+/* BE-6/Brand Banner Section/Css- Start*/
+  .brand-banner-section{
+    max-width: 1920px;
+    height: 776px;
+  }
+  .bb-background-image{
+    background-image: url(../images/BE-6_Images/background.png);
     width: 100%;
-    height: 80vh;
-    background: url(../images/BE-6_Images/background.png);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+    height: 100%;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  .logo-name-opacity {
-    display: flex;
-    justify-content: end;
-  }  
-  .logo-name-image{
+  .bb-logo-name-image{
     opacity: 0.8;
-    margin-top: 10px;
-    height: 35vh;
+    width: 500px;
+    height: 250px;
   }
-  .content {
-    flex-direction: column;
+  .bb-logo-name-image-div{
     position: absolute;
-    top: 50%;
-    left: 65%;
-    transform: translate(-60%, -70%);
-    text-align: center;
-    display: flex;
+    right: 0px;
+    top: 35px;
   }
-  .logo-name {
+  .brand-banner-content{
+   position: absolute;
+   top: 150px;
+   left: 750px;
+   width: 533px;
+  }
+  .bb-logo-name {
     height: 81px;
     width: 191px;
-    margin-bottom: 30px;
-    justify-content: start;
+    margin-bottom: 1rem;
   }
-  .text-area {
+  .brand-banner-text{
+    width: 504px;
     color: white;
     font-weight: 400; 
-    font-size: 16px;
-    line-height: 38px;
+    font-size: 1.2rem;
+    line-height: 2.8rem;
     text-align: left;
-    width: 350px;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     font-family: "Roboto";
-
+    text-transform: capitalize;
   }
-  .btn{
-    width: 150px;
+  .brand-banner-btn{
     background-color: white;
+    max-width: 237px;
     color: black;
-    padding: 10px 20px 10px 20px;
+    padding: 1rem 1rem;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     font-family: "Roboto";
+    text-align: center;
   }
-/* BE-6 MELEK CSS BITIŞ*/
+/* BE-6/Brand Banner Section/Css- End*/
