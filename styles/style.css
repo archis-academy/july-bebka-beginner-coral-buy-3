@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+content
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +15,65 @@
   margin-inline: auto;  
 }
 /* END Cerenucakb/BE-7-Brand-Logos */
+/* BE-6/Brand Banner Section/Css- Start*/
+.brand-banner-section{
+  max-width: 1920px;
+  height: 776px;
+}
+.bb-background-image{
+  background-image: url(../images/BE-6_Images/background.png);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bb-logo-name-image{
+  opacity: 0.8;
+  width: 500px;
+  height: 250px;
+}
+.bb-logo-name-image-div{
+  position: absolute;
+  right: 0px;
+  top: 35px;
+}
+.brand-banner-content{
+ position: absolute;
+ top: 25%;
+ left: 60%;
+ transform: translate(-30%, -10%);
+ width: 533px;
+}
+.bb-logo-name {
+  height: 81px;
+  width: 191px;
+  margin-bottom: 1rem;
+}
+.brand-banner-text{
+  width: 35ch;
+  color: white;
+  font-weight: 400; 
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-family: "Roboto";
+  text-transform: capitalize;
+}
+.brand-banner-btn{
+  background-color: white;
+  max-width: 237px;
+  color: black;
+  padding: 1rem 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: "Roboto";
+  text-align: center;
+}
+/* BE-6/Brand Banner Section/Css- End*/
+
 
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
 .best-sellers{
