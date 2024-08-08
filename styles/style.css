@@ -13,6 +13,142 @@
 }
 /* END Cerenucakb/BE-7-Brand-Logos */
 
+/* BERFİN ESEN [BE-1] Grid Products Started*/
+.product-view-template {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-view-template .grid-product-section-title {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.product-view-template .grid-product-section-title h2 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+/* Top Section Product */
+.product-view-template .top-section-products-1 {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-view-template .category-1 {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 373px;
+  height: fit-content;
+}
+.product-view-template .button-1 {
+  display: flex;
+  padding: 5px 15px 5px 15px;
+  color: #ffffff;
+  background: rgba(30, 40, 50, 1);
+  border-radius: 1px;
+  text-align: center;
+}
+.product-view-template .strainer-icon {
+  display: flex;
+  box-sizing: border-box;
+}
+.product-view-template .li-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.5;
+  list-style: none;
+}
+.product-view-template .active {
+  opacity: 1;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Open sans", sans-serif;
+  max-width: 1320px;
+  margin-inline: auto;
+}
+.product-grid .product-card {
+  width: 312px;
+  height: 478px;
+  border-radius: 5px;
+}
+.product-grid .ribbon {
+  position: absolute;
+  width: 52px;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 22px;
+}
+.product-grid .product-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.product-grid .top-product {
+  width: 312px;
+  height: 400px;
+}
+.product-grid .bottom-product {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-inline: 5px;
+}
+.product-grid .product-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 22px;
+}
+.product-grid .product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.product-grid .price-container {
+  display: flex;
+  align-items: flex-end;
+}
+.product-grid .product-price {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.34px;
+}
+.product-grid .old-price {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+  font-size: 14px;
+}
+.product-grid .current-price {
+  color: #ff6f61;
+}
+.product-grid .product-type {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+/* BERFİN ESEN [BE-1] Grid Products Finished*/
+
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
 .best-sellers{
   max-width: 1320px;
