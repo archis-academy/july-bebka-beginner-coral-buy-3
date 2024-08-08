@@ -13,18 +13,19 @@
 }
 /* END Cerenucakb/BE-7-Brand-Logos */
 
-/* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
+/* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part begins */
 .best-sellers{
   max-width: 1320px;
   width: 100%;
   height: auto;
   margin: 40px auto;
+  padding: 0 20px;
 }
 
 .best-sellers .section-title {
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   margin: 0 auto 20px;
 }
@@ -33,17 +34,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .best-sellers .categories {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .best-sellers .item-tab {
   min-width: 90px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   text-align: center; 
   color: rgba(0, 0, 0, 0.5);
@@ -52,6 +55,7 @@
   justify-content: center; 
   white-space: nowrap;
   cursor: default;
+  margin-bottom: 10px;
 }
 
 .best-sellers .item-tab.active {
@@ -68,7 +72,7 @@
   height: 32px;
   padding: 5px 15px 5px 15px;
   font-family: 'open sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   border: none;
   cursor: pointer;
@@ -86,7 +90,7 @@
   align-items: center;
   position: relative;
   width: 100%;
-  height: 478px;
+  height: auto;
   margin-top: 25px;
   overflow: hidden;
 }
@@ -96,11 +100,13 @@
   justify-content: space-between; 
   transition: transform 0.5s ease-in-out;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .best-sellers .bs-product-card {
-  width: 312px;
-  height: 478px;
+  width: calc(100% / 4 - 20px);
+  margin: 10px;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -138,66 +144,66 @@
 
 .best-sellers .bs-product-card img {
   width: 100%;
-  height: 400px;
+  height: auto;
   object-fit: cover;
   margin-bottom: 10px;
 }
 
-.best-sellers .bs-product-card .top-product{
-  width: 312px;
-  height: 400px;
+.best-sellers .top-product{
+  width: 100%;
+  height: auto;
   transition: opacity 0.4s ease;
 }
 
-.best-sellers .bs-product-card .top-product:hover{
+.best-sellers .top-product:hover{
   opacity: 0.6;
 }
 
-.best-sellers .bs-product-card .bottom-product {
+.best-sellers .bottom-product {
   display: flex;
   flex-direction: column; 
   padding-top: 15px;
   padding-inline: 5px;
 }
 
-.best-sellers .bs-product-card .product-title {
+.best-sellers .product-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 22px;
 }
 
-.best-sellers .bs-product-card .product-details {
+.best-sellers .product-details {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
   margin-top: 5px; 
 }
 
-.best-sellers .bs-product-card .price-container {
+.best-sellers .price-container {
   display: flex; 
   align-items: flex-end; 
 }
 
-.best-sellers .bs-product-card .product-price {
+.best-sellers .product-price {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.34px;
 }
 
-.best-sellers .bs-product-card .product-price.old-price {
+.best-sellers .product-price.old-price {
   text-decoration: line-through; 
   color: rgba(0, 0, 0, 0.5);
   margin-right: 10px; 
   font-size: 14px;
 }
 
-.best-sellers .bs-product-card .product-price.current-price {
+.best-sellers .product-price.current-price {
   color: #FF6F61; 
 }
 
-.best-sellers .bs-product-card .product-type {
+.best-sellers .product-type {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -206,4 +212,31 @@
   text-align: left;
 }
 
-/* melikeunsaldi/BE-20/Best-Sellers-Carousel part ends */
+@media (max-width: 1024px) {
+  .best-sellers .bs-product-card {
+    width: calc(100% / 2 - 20px);
+  }
+}
+
+@media (max-width: 568px) {
+  .best-sellers .bs-product-card {
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .best-sellers .section-title {
+    font-size: 30px;
+  }
+
+  .best-sellers .item-tab {
+    font-size: 12px;
+  }
+
+  .best-sellers .categories button, .show-all {
+    font-size: 12px;
+    width: auto;
+    padding: 5px 10px;
+  }
+}
+/* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part ends */
