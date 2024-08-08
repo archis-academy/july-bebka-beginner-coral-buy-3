@@ -33,8 +33,9 @@ content
   }
   .brand-banner-content{
    position: absolute;
-   top: 150px;
-   left: 750px;
+   top: 25%;
+   left: 60%;
+   transform: translate(-30%, -10%);
    width: 533px;
   }
   .bb-logo-name {
@@ -43,7 +44,7 @@ content
     margin-bottom: 1rem;
   }
   .brand-banner-text{
-    width: 504px;
+    width: 35ch;
     color: white;
     font-weight: 400; 
     font-size: 1.2rem;
