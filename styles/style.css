@@ -5,44 +5,53 @@
 }
 
 /* Cerenucakb/BE-4-Hot-Category-Grid */
-
-
-
-.hotcategorytext{
-  display: flex;
+.flex-hotcategory-container{
+  display:flex;
+  align-items:center;
+}
+.hotcategorytext {
   font-family: "Roboto";
-  writing-mode:vertical-rl;
+  display:flex;
+  padding: 5px;
+  writing-mode: vertical-rl;
   transform: rotate(-180deg);
   font-size: 34px;
 }
 
 .grid-hotcategory {
   max-width: 1320px;
-  flex-wrap:wrap;
+  /* flex-wrap: wrap; */
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
 }
 
-.largeimage{
+.largeimage {
   grid-row: span 2;
   width: 100%;
   height: auto;
 }
-.smallimage{
+.smallimage {
   width: 100%;
   height: auto;
 }
+.relative.hotcategory{
+position: relative;
+
+}
 
 .saletext {
-  background-color:rgb(0, 0, 0);
+  display:flex ;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
+  align-items: flex-start;
+  line-height: normal;
   padding: 5px;
   width: 52px;
-  font-family: "open sans" ;
-  position: absolute;
+  font-family: "open sans";
 }
 
 /* END Cerenucakb/BE-4-Hot-Category-Grid */
