@@ -13,13 +13,14 @@
 
 </head>
 <body>
+  <div class="header-nav-top_main-capsule">
     <div class="header">
         <div class="left-section">
             <div>
-              <form action="">
-                <input type="search" required>
-                <i class="fa fa-search"></i>
-                <button onclick="clearInput()">Clear</a>
+              <form action="" class="header-form">
+                <input type="search" required class="header-form-input">
+                <i class="fa fa-search header-form-fa"></i>
+                <button onclick="clearInput()" class="header-form-button">Clear</a>
               </form>
             </div>
         </div>
@@ -42,8 +43,9 @@
             <li><a href="#">Craft Supplies & Tools</a></li>
         </ul>
     </div>
-
-    <main>
+    <div class="top-main-capsule">
+      <img src="images/top_main/frame_left.svg" alt="Collection Image" class="frame_left">
+      <img src="images/top_main/frame_right.svg" alt="Collection Image" class="frame_right">
       <section class="top-main">
         <div class="top-main-content">
           <div>
@@ -56,11 +58,11 @@
       </div>
       <div class="top-main-image">
           <div class="rectangle"></div>
-          <img src="images/top_main/engin_akyurt_unsplash1.png" alt="Collection Image" class="collection-image">
+          <img src="images/top_main/engin_akyurt_unsplash1.svg" alt="Collection Image" class="collection-image">
       </div>
       </section>
-  </main>
-
+    </div>
+  </div>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script>
       const clearInput = () => {
