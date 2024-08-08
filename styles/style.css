@@ -1,7 +1,10 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+/* HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Started*/
 
 .header-nav-top_main-capsule{
   font-family: "Open Sans", sans-serif;
@@ -9,21 +12,21 @@
   padding-bottom: 5%;
 }
 
-.header {
+.header-nav-top_main-capsule .header {
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0px 20px 0px;
+  padding-block: 20px;
   border-bottom: 1px solid rgb(227, 227, 227);
   max-width: 1320px;
 }
 
-.header .left-section {
+.header-nav-top_main-capsule .header .left-section {
   width: 200px;
 }
 
-.header-form{
+.header-nav-top_main-capsule .header-form{
   position: relative;
   transition: all 1s;
   width: 50px;
@@ -35,7 +38,7 @@
   display: flex;
   align-items: center;
 }
-.header-form-input{
+.header-nav-top_main-capsule .header-form-input{
   position: absolute;
   top: 0;
   left: 0;
@@ -49,7 +52,7 @@
   border-radius: 20px;
   padding: 0 20px;
 }
-.header-form-fa{
+.header-nav-top_main-capsule .header-form-fa{
   box-sizing: border-box;
   padding: 10px;
   width: 42.5px;
@@ -63,21 +66,21 @@
   font-size: 1.2em;
   transition: all 1s;
 }
-.header-form:hover,
-.header-form:valid{
+.header-nav-top_main-capsule .header-form:hover,
+.header-nav-top_main-capsule .header-form:valid{
   width: 200px;
   cursor: pointer;
 }
-.header-form:hover .header-form-input,
-.header-form:valid .header-form-input{
+.header-nav-top_main-capsule .header-form:hover .header-form-input,
+.header-nav-top_main-capsule .header-form:valid .header-form-input{
   display: block;
 }
-.header-form:hover .header-form-fa,
-.header-form:valid .header-form-fa{
+.header-nav-top_main-capsule .header-form:hover .header-form-fa,
+.header-nav-top_main-capsule .header-form:valid .header-form-fa{
   background: #E3E3E3;
   color: rgb(0, 0, 0);
 }
-.header-form-button {
+.header-nav-top_main-capsule .header-form-button {
   display: none;
   position: absolute;
   top: 40px;
@@ -96,39 +99,39 @@
   width: 60%;
   cursor: pointer;
   }
-.header-form:valid .header-form-button {
+  .header-nav-top_main-capsule .header-form:valid .header-form-button {
   display: block;
 }
   
 
-.header .logo {
+.header-nav-top_main-capsule .header .logo {
   justify-content: center;
 }
 
 
-.header .right-section {
+.header-nav-top_main-capsule .header .right-section {
   justify-content: flex-end;
 }
 
 
-.header .logo img {
+.header-nav-top_main-capsule .header .logo img {
   max-height: 50px;
 }
 
 
-.header .right-section a {
+.header-nav-top_main-capsule .header .right-section a {
   margin-left: 20px;
   color: #333;
   text-decoration: none;
   font-size: 16px;
 }
 
-.header .right-section a:hover {
+.header-nav-top_main-capsule .header .right-section a:hover {
   transition: all 0.5s;
   color: #ff6f61;
 }
 
-.nav {
+.header-nav-top_main-capsule .nav {
   margin-inline: auto;
   max-width: 1320px;
   display: flex;
@@ -136,15 +139,15 @@
   padding: 10px 0;
   border-top: 1px solid #E3E3E3;
 }
-.nav .menu {
+.header-nav-top_main-capsule .nav .menu {
   display: flex;
   list-style: none;
   margin: 20px;
 }
-.nav .menu li {
+.header-nav-top_main-capsule .nav .menu li {
   margin: 0 20px;
 }
-.nav .menu li a {
+.header-nav-top_main-capsule .nav .menu li a {
   text-decoration: none;
   color: #000000;
   font-size: 16px;
@@ -152,12 +155,12 @@
   line-height: 24px;
 }
 
-.nav .menu li a:hover{
+.header-nav-top_main-capsule .nav .menu li a:hover{
   transition: all 0.5s;
   color: #ff6f61;
 }
 
-.top-main {
+.header-nav-top_main-capsule .top-main {
   margin-inline: auto;
   display: flex;
   justify-content: center;
@@ -167,21 +170,21 @@
   padding-top: 45px;
 }
 
-.frame_left, .frame_right{
+.header-nav-top_main-capsule .frame_left, .frame_right{
   position: absolute;
 }
 
-.frame_left{
+.header-nav-top_main-capsule .frame_left{
   left: 0%;
   bottom: 20%;
 }
 
-.frame_right{
+.header-nav-top_main-capsule .frame_right{
   right: 0%;
   bottom: 25%;
 }
 
-.top-main-content {
+.header-nav-top_main-capsule .top-main-content {
   font-family: "Roboto", sans-serif;
   position: relative;
   padding: 10px;
@@ -189,14 +192,14 @@
   display: flex;
 }
 
-.top-main-content h1 {
+.header-nav-top_main-capsule .top-main-content h1 {
   font-size: 74px;
   font-weight: 300;
   line-height: 55px;
   margin-bottom: 20px;
 }
 
-.top-main-content p {
+.header-nav-top_main-capsule .top-main-content p {
   font-size: 30px;
   font-weight: 400;
   line-height: 55px;
@@ -204,7 +207,7 @@
   max-width: 80%;
 }
 
-.shop-now {
+.header-nav-top_main-capsule .shop-now {
   width: 223px;
   height: 72px;
   text-align: center;
@@ -217,20 +220,20 @@
   text-decoration: none;
 }
 
-.shop-now:hover {
+.header-nav-top_main-capsule .shop-now:hover {
   transition: all 0.8s;
   background-color: #ff6f61;
   color: #fff;
 }
 
-.top-main-image {
+.header-nav-top_main-capsule .top-main-image {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
   
-  .rectangle {
+.header-nav-top_main-capsule .rectangle {
   height: 542px;
   width: 424px;
   z-index: 1;
@@ -239,12 +242,14 @@
   position: absolute;
   top: 15px;
   right: -5%;
-  }
+}
 
-.collection-image {
+.header-nav-top_main-capsule .collection-image {
   position: relative;
   height: 542px;
   width: 424px;
   z-index: 2;
   border-radius: 160px 0px 160px 0px;
 }
+
+/* HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Finished*/
