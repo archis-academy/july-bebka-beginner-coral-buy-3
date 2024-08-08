@@ -6,21 +6,23 @@
 
 /* Cerenucakb/BE-4-Hot-Category-Grid */
 .flex-hotcategory-container{
+  
   display:flex;
   align-items:center;
 }
 .hotcategorytext {
   font-family: "Roboto";
-  display:flex;
+  display: flex;
   padding: 5px;
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
   font-size: 34px;
+  
+
 }
 
 .grid-hotcategory {
   max-width: 1320px;
-  /* flex-wrap: wrap; */
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
@@ -36,7 +38,7 @@
   width: 100%;
   height: auto;
 }
-.relative.hotcategory{
+.relative-hotcategory{
 position: relative;
 
 }
