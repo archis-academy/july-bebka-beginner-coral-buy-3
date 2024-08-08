@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 /* HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Started*/
 
-.header-nav-top_main-capsule{
+.header-nav-top_main-capsule {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(244, 244, 245);
   padding-bottom: 5%;
@@ -26,7 +26,7 @@
   width: 200px;
 }
 
-.header-nav-top_main-capsule .header-form{
+.header-nav-top_main-capsule .header-form {
   position: relative;
   transition: all 1s;
   width: 50px;
@@ -38,11 +38,11 @@
   display: flex;
   align-items: center;
 }
-.header-nav-top_main-capsule .header-form-input{
+.header-nav-top_main-capsule .header-form-input {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;;
+  width: 100%;
   height: 42.5px;
   line-height: 30px;
   outline: 0;
@@ -52,7 +52,7 @@
   border-radius: 20px;
   padding: 0 20px;
 }
-.header-nav-top_main-capsule .header-form-fa{
+.header-nav-top_main-capsule .header-form-fa {
   box-sizing: border-box;
   padding: 10px;
   width: 42.5px;
@@ -67,57 +67,53 @@
   transition: all 1s;
 }
 .header-nav-top_main-capsule .header-form:hover,
-.header-nav-top_main-capsule .header-form:valid{
+.header-nav-top_main-capsule .header-form:valid {
   width: 200px;
   cursor: pointer;
 }
 .header-nav-top_main-capsule .header-form:hover .header-form-input,
-.header-nav-top_main-capsule .header-form:valid .header-form-input{
+.header-nav-top_main-capsule .header-form:valid .header-form-input {
   display: block;
 }
 .header-nav-top_main-capsule .header-form:hover .header-form-fa,
-.header-nav-top_main-capsule .header-form:valid .header-form-fa{
-  background: #E3E3E3;
+.header-nav-top_main-capsule .header-form:valid .header-form-fa {
+  background: #e3e3e3;
   color: rgb(0, 0, 0);
 }
 .header-nav-top_main-capsule .header-form-button {
   display: none;
   position: absolute;
   top: 40px;
-  bottom:0;
+  bottom: 0;
   left: 0;
   right: 0;
   font-size: 15px;
   color: rgb(0, 0, 0);
-  padding: 4px;  
+  padding: 4px;
   min-height: max-content;
-  background:transparent;
+  background: transparent;
   outline: 0;
   border: 1px solid #303030;
   border-radius: 4px;
-  text-align: center; 
+  text-align: center;
   width: 60%;
   cursor: pointer;
-  }
-  .header-nav-top_main-capsule .header-form:valid .header-form-button {
+}
+.header-nav-top_main-capsule .header-form:valid .header-form-button {
   display: block;
 }
-  
 
 .header-nav-top_main-capsule .header .logo {
   justify-content: center;
 }
 
-
 .header-nav-top_main-capsule .header .right-section {
   justify-content: flex-end;
 }
 
-
 .header-nav-top_main-capsule .header .logo img {
   max-height: 50px;
 }
-
 
 .header-nav-top_main-capsule .header .right-section a {
   margin-left: 20px;
@@ -137,7 +133,7 @@
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  border-top: 1px solid #E3E3E3;
+  border-top: 1px solid #e3e3e3;
 }
 .header-nav-top_main-capsule .nav .menu {
   display: flex;
@@ -155,7 +151,7 @@
   line-height: 24px;
 }
 
-.header-nav-top_main-capsule .nav .menu li a:hover{
+.header-nav-top_main-capsule .nav .menu li a:hover {
   transition: all 0.5s;
   color: #ff6f61;
 }
@@ -170,16 +166,17 @@
   padding-top: 45px;
 }
 
-.header-nav-top_main-capsule .frame_left, .frame_right{
+.header-nav-top_main-capsule .frame_left,
+.frame_right {
   position: absolute;
 }
 
-.header-nav-top_main-capsule .frame_left{
+.header-nav-top_main-capsule .frame_left {
   left: 0%;
   bottom: 20%;
 }
 
-.header-nav-top_main-capsule .frame_right{
+.header-nav-top_main-capsule .frame_right {
   right: 0%;
   bottom: 25%;
 }
@@ -215,7 +212,7 @@
   font-size: 29px;
   font-weight: 400;
   display: inline-block;
-  background-color: #1E2832;
+  background-color: #1e2832;
   color: #fff;
   text-decoration: none;
 }
@@ -232,7 +229,7 @@
   justify-content: center;
   align-items: center;
 }
-  
+
 .header-nav-top_main-capsule .rectangle {
   height: 542px;
   width: 424px;
