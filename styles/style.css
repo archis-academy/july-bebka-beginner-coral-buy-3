@@ -591,3 +591,14 @@
 }
 
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part ends */
+
+/* berfinesenn/BE-11-product-view--template-responsiveness started */
+@media screen and (max-width: 768px){
+  .product-view-template {
+      width: 100%;
+  }
+  .product-grid {
+      width: 100%;
+  }
+}
+/* berfinesenn/BE-11-product-view-template-responsiveness finished*/
