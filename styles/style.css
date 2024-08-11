@@ -5,10 +5,11 @@
 }
 
 /* Cerenucakb/BE-4-Hot-Category-Grid */
-.flex-hotcategory-container{
-  
-  display:flex;
-  align-items:center;
+.flex-hotcategory-container {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .hotcategorytext {
   font-family: "Roboto";
@@ -17,16 +18,18 @@
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
   font-size: 34px;
-  
-
+  position: absolute;
+  left: -52px;
 }
 
 .grid-hotcategory {
+  margin-inline: auto;
   max-width: 1320px;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
+  position: relative;
 }
 
 .largeimage {
@@ -38,13 +41,13 @@
   width: 100%;
   height: auto;
 }
-.relative-hotcategory{
-position: relative;
-
+.relative-hotcategory {
+  position: relative;
 }
 
 .saletext {
-  display:flex ;
+  top: 20px;
+  display: flex;
   position: absolute;
   background-color: rgb(0, 0, 0);
   color: white;
