@@ -21,7 +21,6 @@
   position: absolute;
   left: -52px;
 }
-
 .grid-hotcategory {
   margin-inline: auto;
   max-width: 1320px;
@@ -31,7 +30,6 @@
   gap: 10px;
   position: relative;
 }
-
 .largeimage {
   grid-row: span 2;
   width: 100%;
@@ -44,7 +42,6 @@
 .relative-hotcategory {
   position: relative;
 }
-
 .saletext {
   top: 20px;
   display: flex;
@@ -58,5 +55,4 @@
   width: 52px;
   font-family: "open sans";
 }
-
 /* END Cerenucakb/BE-4-Hot-Category-Grid */
