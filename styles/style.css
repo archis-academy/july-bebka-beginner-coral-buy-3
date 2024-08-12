@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -256,13 +255,13 @@
 .brand-logos {
   width: 1320px;
   padding-block: 50px;
-  display:flex ;
+  display: flex;
   justify-content: space-around;
-  margin-inline: auto;  
+  margin-inline: auto;
 }
 /* END Cerenucakb/BE-7-Brand-Logos */
 /* BE-6/Brand Banner Section/Css- Start*/
-.brand-banner-section{
+.brand-banner-section {
   max-width: 1920px;
   height: 776px;
   background-image: url(../images/Brand-Banner/background.png);
@@ -271,41 +270,41 @@
   background-repeat: no-repeat;
   margin-inline: auto;
 }
-.bb-logo-name-image{
+.bb-logo-name-image {
   opacity: 0.8;
   width: 500px;
   height: 250px;
 }
-.bb-logo-name-image-div{
+.bb-logo-name-image-div {
   position: absolute;
   right: 0px;
   top: 35px;
 }
-.brand-banner-content{
- position: absolute;
- top: 25%;
- left: 60%;
- transform: translate(-10%, -10%);
- width: 533px;
- gap: 8px;
+.brand-banner-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-10%, -10%);
+  width: 533px;
+  gap: 50px;
 }
 .bb-logo-name {
   height: 81px;
   width: 191px;
-  margin-bottom: 1rem;
 }
-.brand-banner-text{
+.brand-banner-text {
   width: 35ch;
   color: white;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 26px;
   line-height: 40px;
   text-align: left;
-  margin-bottom: 2rem;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
-.brand-banner-btn{
+.brand-banner-btn {
   background-color: white;
   max-width: 237px;
   color: black;
@@ -318,7 +317,6 @@
   gap: 8px;
 }
 /* BE-6/Brand Banner Section/Css- End*/
-
 
 /* BERFİN ESEN [BE-1] Grid Products Started*/
 .product-view-template {
@@ -457,7 +455,7 @@
 /* BERFİN ESEN [BE-1] Grid Products Finished*/
 
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
-.best-sellers{
+.best-sellers {
   max-width: 1320px;
   width: 100%;
   height: auto;
@@ -465,7 +463,7 @@
 }
 
 .best-sellers .section-title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 50px;
   text-align: center;
@@ -485,14 +483,14 @@
 
 .best-sellers .item-tab {
   min-width: 90px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  text-align: center; 
+  text-align: center;
   color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   white-space: nowrap;
   cursor: default;
 }
@@ -502,25 +500,27 @@
 }
 
 .best-sellers .item-tab:not(.active):hover {
-  color: #FF6F61;
+  color: #ff6f61;
   transition-duration: 0.5s;
 }
 
-.best-sellers .categories button, .show-all { 
+.best-sellers .categories button,
+.show-all {
   width: 93px;
   height: 32px;
   padding: 5px 15px 5px 15px;
-  font-family: 'open sans', sans-serif;
+  font-family: "open sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: none;
   cursor: pointer;
-  background-color: #1E2832;
+  background-color: #1e2832;
   color: #fff;
 }
 
-.best-sellers .categories button:hover, .show-all:hover {
-  background-color: #FF6F61;
+.best-sellers .categories button:hover,
+.show-all:hover {
+  background-color: #ff6f61;
   transition-duration: 0.5s;
 }
 
@@ -536,7 +536,7 @@
 
 .best-sellers .slider-wrapper {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   transition: transform 0.5s ease-in-out;
   width: 100%;
 }
@@ -570,10 +570,10 @@
   position: absolute;
   width: 52px;
   top: 22px;
-  background: #FF6F61;
+  background: #ff6f61;
   color: #fff;
   padding: 5px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -586,62 +586,62 @@
   margin-bottom: 10px;
 }
 
-.best-sellers .bs-product-card .top-product{
+.best-sellers .bs-product-card .top-product {
   width: 312px;
   height: 400px;
   transition: opacity 0.4s ease;
 }
 
-.best-sellers .bs-product-card .top-product:hover{
+.best-sellers .bs-product-card .top-product:hover {
   opacity: 0.6;
 }
 
 .best-sellers .bs-product-card .bottom-product {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   padding-top: 15px;
   padding-inline: 5px;
 }
 
 .best-sellers .bs-product-card .product-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 22px;
 }
 
 .best-sellers .bs-product-card .product-details {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  margin-top: 5px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
 }
 
 .best-sellers .bs-product-card .price-container {
-  display: flex; 
-  align-items: flex-end; 
+  display: flex;
+  align-items: flex-end;
 }
 
 .best-sellers .bs-product-card .product-price {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.34px;
 }
 
 .best-sellers .bs-product-card .product-price.old-price {
-  text-decoration: line-through; 
+  text-decoration: line-through;
   color: rgba(0, 0, 0, 0.5);
-  margin-right: 10px; 
+  margin-right: 10px;
   font-size: 14px;
 }
 
 .best-sellers .bs-product-card .product-price.current-price {
-  color: #FF6F61; 
+  color: #ff6f61;
 }
 
 .best-sellers .bs-product-card .product-type {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 21.79px;
