@@ -397,13 +397,12 @@
 }
 /* BERFİN ESEN [BE-1] Grid Products Finished*/
 
-/* melikeunsaldi/BE-20/Best-Sellers-Carousel part begins */
+/* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part begins */
 .best-sellers{
   max-width: 1320px;
   width: 100%;
   height: auto;
   margin: 40px auto;
-  padding: 0 20px;
 }
 
 .best-sellers .section-title {
@@ -419,6 +418,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-inline: 10px;
 }
 
 .best-sellers .categories {
@@ -437,8 +437,7 @@
   display: flex;
   align-items: center;
   justify-content: center; 
-  white-space: nowrap;
-  cursor: default;
+  cursor: pointer;
   margin-bottom: 10px;
 }
 
@@ -479,7 +478,7 @@
 
 .best-sellers .slider-wrapper {
   display: flex;
-  justify-content: space-between; 
+  justify-content: center; 
   transition: transform 0.5s ease-in-out;
   width: 100%;
   flex-wrap: wrap;
@@ -500,6 +499,7 @@
 
 .best-sellers .left-arrow {
   left: 10px;
+  z-index: 1;
 }
 
 .best-sellers .right-arrow {
@@ -583,19 +583,43 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 825px) {
   .best-sellers .bs-product-card {
-    width: calc(100% / 2 - 20px);
+    width: calc(80% / 2 - 25px);
+  }
+  .best-sellers .section-title{
+    font-size: 40px;
   }
 }
-
+@media (max-width: 1030px) {
+  .best-sellers .product-title{
+    height: 40px;
+  }
+}
 @media (max-width: 568px) {
   .best-sellers .bs-product-card {
-    width: calc(100% - 20px);
+    width: calc(70% - 20px);
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 490px) {
+  .best-sellers .categories{
+    justify-content: center;
+    max-width: 30ch;
+    gap: 20px;
+  }
+  .best-sellers .top-section-products{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+  }
+  .best-sellers .section-title{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 250px) {
   .best-sellers .section-title {
     font-size: 30px;
   }
