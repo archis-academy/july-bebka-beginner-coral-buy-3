@@ -396,6 +396,63 @@
   text-align: left;
 }
 /* BERFİN ESEN [BE-1] Grid Products Finished*/
+/* Melek Mahmutoğlu- [BE-6][Brand Banner Section] Css-Start*/
+.brand-banner-section {
+  max-width: 1920px;
+  height: 776px;
+  background-image: url(../images/Brand-Banner/background.png);
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-inline: auto;
+  margin: 150px 0;
+}
+.bb-logo-name-image {
+  opacity: 0.8;
+  max-width: 732px;
+  height: 309px;
+}
+.bb-logo-name-image-div {
+  position: absolute;
+  right: 0px;
+  top: 35px;
+}
+.brand-banner-content {
+  max-width: 504px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-15%, 5%);
+  gap: 50px;
+}
+.bb-logo-name {
+  height: 81px;
+  width: 191px;
+}
+.brand-banner-text {
+  width: 35ch;
+  color: white;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 55px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.brand-banner-btn {
+  background-color: white;
+  max-width: 237px;
+  color: black;
+  padding: 19px 26px 19px 26px;
+  font-weight: 400;
+  font-size: 29px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  line-height: 50px;
+}
+/* Melek Mahmutoğlu- [BE-6][Brand Banner Section] Css-End */
 
 /* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part begins */
 .best-sellers{
