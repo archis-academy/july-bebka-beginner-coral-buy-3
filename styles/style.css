@@ -614,6 +614,7 @@
 
 /* [BE-10][Responsiveness] End */
 /* Melek Mahmutoğlu- [BE-6][Brand Banner Section] Css-End */
+
 /* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part begins */
 .best-sellers {
   max-width: 1320px;
@@ -874,3 +875,110 @@
   }
 }
 /* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part ends */
+
+/* melikeunsaldi/BE-3/Footer-Section part begins */
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1320px;
+  margin: auto;
+  padding-block: 90px;
+}
+
+.left-footer {
+  max-width: 50ch;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.left-footer img {
+  max-width: 180px;
+  margin-top: 15px;
+}
+
+.left-footer p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(30, 40, 50, 0.75);
+  line-height: 21.79px;
+}
+.social-icons {
+  display: flex;
+  gap: 40px;
+}
+
+.social-icons a {
+  color: #1e2832;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-menu {
+  margin: 20px;
+}
+
+.footer-menu h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.footer-menu ul li a {
+  color: #1e2832;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  padding: 20px;
+  background-color: #1e2832;
+}
+.bottom-footer-content {
+  max-width: 1320px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.bottom-footer p,
+.scroll-to-top button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.scroll-to-top button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.scroll-to-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* melikeunsaldi/BE-3/Footer-Section part ends */
