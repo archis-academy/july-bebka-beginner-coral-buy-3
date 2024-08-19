@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*melekmahmutoglu/BE-18-19/Product-Detail-And-Image-Album- Start*/
 .products-detail-section {
   margin: 0 auto;
   max-width: 1320px;
@@ -153,7 +154,6 @@
   line-height: 20px;
   color: black;
 }
-
 /* Responsive */
 @media (max-width: 1320px) {
   .products-detail-section {
@@ -192,3 +192,4 @@
     gap: 20px;
   }
 }
+/*melekmahmutoglu/BE-18-19/Product-Detail-And-Image-Album- End*/
