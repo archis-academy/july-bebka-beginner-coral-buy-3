@@ -593,37 +593,37 @@
 /* melikeunsaldi/BE-20/Best-Sellers-Carousel part ends */
 
 /*<!-- busranurtur/NewsLetter part begins-->*/
-.newsLetter{
+.h1{
+  font-size: 25px;
+  display: inline;
   font-family: "Roboto" , sans-serif;
   text-align: center;
-  font-size: 9px;
   font-weight: 500px;
   font-weight: bold;
   line-height: 58.59px;
+  margin-bottom: auto;
+  
   
 }
 
-.flex-container{
-  align-items: center;
+.form{
+  
   display: flex;
   width: 760px;
   height: 165;
   font-weight: bold;
-  margin: auto;
+ 
   justify-content: center;
   text-align: center;
+  border-style: none;
 }
 
 .input{
-  align-content: center;
-  border-style: none;
-  border-bottom-width: 20px;
-  display: flex;
-  margin: auto;
-  text-decoration: underline;
-  /*text-underline-position:auto;*/
+  border: none;
+  border-bottom: 2px solid black;
   width: 643px;
   height: 32px;
-  margin-top: 622px;
-  margin-left: 517px;
+  outline: transparent;
+  
+  
 }
