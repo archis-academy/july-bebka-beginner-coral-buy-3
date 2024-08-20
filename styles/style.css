@@ -263,6 +263,8 @@
 
 /* Cerenucakb/BE-4-Hot-Category-Grid */
 .flex-hotcategory-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
   position: relative;
   justify-content: center;
   display: flex;
