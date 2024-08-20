@@ -4,6 +4,263 @@
   box-sizing: border-box;
 }
 
+/* HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Started*/
+
+.header-nav-top_main-capsule {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(244, 244, 245);
+  padding-bottom: 5%;
+}
+
+.header-nav-top_main-capsule .header {
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+  max-width: 1320px;
+}
+
+.header-nav-top_main-capsule .header .left-section {
+  width: 200px;
+}
+
+.header-nav-top_main-capsule .header-form {
+  position: relative;
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 4px solid rgb(244, 244, 245);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.header-nav-top_main-capsule .header-form-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+.header-nav-top_main-capsule .header-form-fa {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  color: #000000;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+.header-nav-top_main-capsule .header-form:hover,
+.header-nav-top_main-capsule .header-form:valid {
+  width: 200px;
+  cursor: pointer;
+}
+.header-nav-top_main-capsule .header-form:hover .header-form-input,
+.header-nav-top_main-capsule .header-form:valid .header-form-input {
+  display: block;
+}
+.header-nav-top_main-capsule .header-form:hover .header-form-fa,
+.header-nav-top_main-capsule .header-form:valid .header-form-fa {
+  background: #e3e3e3;
+  color: rgb(0, 0, 0);
+}
+.header-nav-top_main-capsule .header-form-button {
+  display: none;
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 4px;
+  min-height: max-content;
+  background: transparent;
+  outline: 0;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  text-align: center;
+  width: 60%;
+  cursor: pointer;
+}
+.header-nav-top_main-capsule .header-form:valid .header-form-button {
+  display: block;
+}
+
+.header-nav-top_main-capsule .header .logo {
+  justify-content: center;
+}
+
+.header-nav-top_main-capsule .header .right-section {
+  justify-content: flex-end;
+}
+
+.header-nav-top_main-capsule .header .logo img {
+  max-height: 50px;
+}
+
+.header-nav-top_main-capsule .header .right-section a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header-nav-top_main-capsule .header .right-section a:hover {
+  transition: all 0.5s;
+  color: #ff6f61;
+}
+
+.header-nav-top_main-capsule .nav {
+  margin-inline: auto;
+  max-width: 1320px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-top: 1px solid #e3e3e3;
+}
+.header-nav-top_main-capsule .nav .menu {
+  display: flex;
+  list-style: none;
+  margin: 20px;
+}
+.header-nav-top_main-capsule .nav .menu li {
+  margin: 0 20px;
+}
+.header-nav-top_main-capsule .nav .menu li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header-nav-top_main-capsule .nav .menu li a:hover {
+  transition: all 0.5s;
+  color: #ff6f61;
+}
+
+.header-nav-top_main-capsule .top-main {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1320px;
+  position: relative;
+  padding-top: 45px;
+}
+
+.header-nav-top_main-capsule .frame_left,
+.frame_right {
+  position: absolute;
+}
+
+.header-nav-top_main-capsule .frame_left {
+  left: 0%;
+  bottom: 20%;
+}
+
+.header-nav-top_main-capsule .frame_right {
+  right: 0%;
+  bottom: 25%;
+}
+
+.header-nav-top_main-capsule .top-main-content {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.header-nav-top_main-capsule .top-main-content h1 {
+  font-size: 74px;
+  font-weight: 300;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.header-nav-top_main-capsule .top-main-content p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 30px;
+  max-width: 80%;
+}
+
+.header-nav-top_main-capsule .shop-now {
+  width: 223px;
+  height: 72px;
+  text-align: center;
+  align-content: center;
+  font-size: 29px;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #1e2832;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav-top_main-capsule .shop-now:hover {
+  transition: all 0.8s;
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+.header-nav-top_main-capsule .top-main-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav-top_main-capsule .rectangle {
+  height: 542px;
+  width: 424px;
+  z-index: 1;
+  border: 2px solid #00000040;
+  border-radius: 160px 0px 160px 0px;
+  position: absolute;
+  top: 15px;
+  right: -5%;
+}
+
+.header-nav-top_main-capsule .collection-image {
+  position: relative;
+  height: 542px;
+  width: 424px;
+  z-index: 2;
+  border-radius: 160px 0px 160px 0px;
+}
+
+/* HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Finished*/
+
+/* Cerenucakb/BE-7-Brand-Logos */
+.brand-logos {
+  width: 1320px;
+  padding-block: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-inline: auto;
+}
+/* END Cerenucakb/BE-7-Brand-Logos */
+
 /* Cerenucakb/BE-4-Hot-Category-Grid */
 .flex-hotcategory-container {
   position: relative;
@@ -57,3 +314,724 @@
   font-family: "open sans";
 }
 /* END Cerenucakb/BE-4-Hot-Category-Grid */
+/* BERFİN ESEN [BE-1] Grid Products Started*/
+.product-view-template {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-view-template .grid-product-section-title {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.product-view-template .grid-product-section-title h2 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+/* Top Section Product */
+.product-view-template .top-section-products-1 {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-view-template .category-1 {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 373px;
+  height: fit-content;
+}
+.product-view-template .button-1 {
+  display: flex;
+  padding: 5px 15px 5px 15px;
+  color: #ffffff;
+  background: rgba(30, 40, 50, 1);
+  border-radius: 1px;
+  text-align: center;
+}
+.product-view-template .strainer-icon {
+  display: flex;
+  box-sizing: border-box;
+}
+.product-view-template .li-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.5;
+  list-style: none;
+}
+.product-view-template .active {
+  opacity: 1;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Open sans", sans-serif;
+  max-width: 1320px;
+  margin-inline: auto;
+}
+.product-grid .product-card {
+  width: 312px;
+  height: 478px;
+  border-radius: 5px;
+}
+.product-grid .ribbon {
+  position: absolute;
+  width: 52px;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 22px;
+}
+.product-grid .product-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.product-grid .top-product {
+  width: 312px;
+  height: 400px;
+}
+.product-grid .bottom-product {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-inline: 5px;
+}
+.product-grid .product-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 22px;
+}
+.product-grid .product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.product-grid .price-container {
+  display: flex;
+  align-items: flex-end;
+}
+.product-grid .product-price {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.34px;
+}
+.product-grid .old-price {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+  font-size: 14px;
+}
+.product-grid .current-price {
+  color: #ff6f61;
+}
+.product-grid .product-type {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+/* BERFİN ESEN [BE-1] Grid Products Finished*/
+/* Melek Mahmutoğlu- [BE-6][Brand Banner Section] Css-Start*/
+.brand-banner-section {
+  max-width: 1920px;
+  height: 776px;
+  background-image: url(../images/Brand-Banner/background.png);
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-inline: auto;
+  margin: 150px 0;
+}
+.bb-logo-name-image {
+  opacity: 0.8;
+  max-width: 732px;
+  height: 309px;
+}
+.bb-logo-name-image-div {
+  position: absolute;
+  right: 0px;
+  top: 35px;
+}
+.brand-banner-content {
+  max-width: 504px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-15%, 5%);
+  gap: 50px;
+}
+.bb-logo-name {
+  height: 81px;
+  width: 191px;
+}
+.brand-banner-text {
+  width: 35ch;
+  color: white;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 55px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.brand-banner-btn {
+  background-color: white;
+  max-width: 237px;
+  color: black;
+  padding: 19px 26px 19px 26px;
+  font-weight: 400;
+  font-size: 29px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  line-height: 50px;
+}
+/* [BE-10][Responsiveness] Start */
+@media (min-width: 1920px) {
+  .brand-banner-section {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1850px) {
+  .brand-banner-section {
+    margin-top: 100px;
+    background-size: cover;
+  }
+  .bb-logo-name-image {
+    max-width: 600px;
+    max-height: 250px;
+  }
+  .brand-banner-content {
+    top: 20%;
+    left: 65%;
+    gap: 40px;
+  }
+}
+@media (max-width: 1550px) {
+  .brand-banner-section {
+    background-size: cover;
+    margin-top: 80px;
+  }
+  .bb-logo-name-image {
+    max-width: 550px;
+    height: 220px;
+  }
+  .brand-banner-content {
+    top: 20%;
+    left: 65%;
+    gap: 40px;
+  }
+  .brand-banner-text {
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .brand-banner-btn {
+    max-width: 220px;
+    padding: 16px 22px 16px 22px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1350px) {
+  .brand-banner-section {
+    background-size: cover;
+    margin-top: 80px;
+  }
+  .bb-logo-name-image {
+    max-width: 550px;
+    height: 220px;
+  }
+  .brand-banner-content {
+    top: 20%;
+    left: 55%;
+    gap: 30px;
+  }
+  .brand-banner-text {
+    width: 40ch;
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .brand-banner-btn {
+    max-width: 220px;
+    padding: 16px 22px 16px 22px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  .brand-banner-section {
+    background-size: cover;
+    margin-top: 80px;
+  }
+  .bb-logo-name-image {
+    max-width: 500px;
+    height: 200px;
+  }
+  .brand-banner-content {
+    top: 35%;
+    left: 45%;
+    gap: 40px;
+  }
+  .brand-banner-text {
+    width: 40ch;
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .brand-banner-btn {
+    max-width: 220px;
+    padding: 16px 22px 16px 22px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 850px) {
+  .brand-banner-section {
+    background-size: cover;
+    margin-top: 80px;
+  }
+  .bb-logo-name-image {
+    max-width: 450px;
+    height: 150px;
+  }
+  .bb-logo-name-image-div {
+    top: 30%;
+    left: 5%;
+  }
+  .brand-banner-content {
+    top: 38%;
+    left: 40%;
+    gap: 40px;
+  }
+  .brand-banner-text {
+    width: 40ch;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .brand-banner-btn {
+    max-width: 220px;
+    padding: 14px 20px 14px 20px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 650px) {
+  .brand-banner-section {
+    background-size: cover;
+    margin: 20px 0px;
+  }
+  .bb-logo-name-image {
+    max-width: 300px;
+    height: 120px;
+  }
+  .bb-logo-name-image-div {
+    top: 30%;
+    left: 10%;
+  }
+  .brand-banner-content {
+    top: 40%;
+    left: 20%;
+    gap: 30px;
+  }
+  .brand-banner-text {
+    width: 30ch;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .brand-banner-btn {
+    max-width: 180px;
+    padding: 10px 16px 10px 16px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+/* [BE-10][Responsiveness] End */
+/* Melek Mahmutoğlu- [BE-6][Brand Banner Section] Css-End */
+
+/* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part begins */
+.best-sellers {
+  max-width: 1320px;
+  width: 100%;
+  height: auto;
+  margin: 40px auto;
+}
+
+.best-sellers .section-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.best-sellers .top-section-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-inline: 10px;
+}
+
+.best-sellers .categories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.best-sellers .item-tab {
+  min-width: 90px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.best-sellers .item-tab.active {
+  color: #000000;
+}
+
+.best-sellers .item-tab:not(.active):hover {
+  color: #ff6f61;
+  transition-duration: 0.5s;
+}
+
+.best-sellers .categories button,
+.show-all {
+  padding: 5px 15px 5px 15px;
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  background-color: #1e2832;
+  color: #fff;
+}
+
+.best-sellers .categories button:hover,
+.show-all:hover {
+  background-color: #ff6f61;
+  transition-duration: 0.5s;
+}
+
+.best-sellers .best-sellers-slider {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.best-sellers .slider-wrapper {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.best-sellers .bs-product-card {
+  width: calc(100% / 4 - 20px);
+  margin: 10px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.best-sellers .slider-arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.best-sellers .left-arrow {
+  left: 10px;
+  z-index: 1;
+}
+
+.best-sellers .right-arrow {
+  right: 10px;
+}
+
+.best-sellers .ribbon {
+  position: absolute;
+  width: 52px;
+  top: 22px;
+  background: #ff6f61;
+  color: #fff;
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.best-sellers .bs-product-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.best-sellers .top-product {
+  transition: opacity 0.4s ease;
+  position: relative;
+}
+
+.best-sellers .top-product:hover {
+  opacity: 0.6;
+}
+
+.best-sellers .bottom-product {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-inline: 5px;
+}
+
+.best-sellers .product-title {
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.best-sellers .product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.best-sellers .price-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.best-sellers .product-price {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.best-sellers .product-price.old-price {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.best-sellers .product-price.current-price {
+  color: #ff6f61;
+}
+
+.best-sellers .product-type {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1030px) {
+  .best-sellers .product-title {
+    font-size: 14px;
+  }
+  .best-sellers .product-type {
+    font-size: 14px;
+  }
+  .best-sellers .product-price {
+    font-size: 14px;
+  }
+  .best-sellers .product-price.old-price {
+    font-size: 12px;
+  }
+}
+@media (max-width: 920px) {
+  .best-sellers .product-title {
+    height: 40px;
+  }
+}
+
+@media (max-width: 825px) {
+  .best-sellers .bs-product-card {
+    width: calc(80% / 2 - 25px);
+  }
+  .best-sellers .section-title {
+    font-size: 40px;
+  }
+  .best-sellers .item-tab,
+  .show-all {
+    font-size: 14px;
+  }
+}
+@media (max-width: 568px) {
+  .best-sellers .bs-product-card {
+    width: calc(70% - 20px);
+  }
+}
+
+@media (max-width: 490px) {
+  .best-sellers .categories {
+    justify-content: center;
+    max-width: 30ch;
+    gap: 20px;
+  }
+  .best-sellers .top-section-products {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .best-sellers .section-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 250px) {
+  .best-sellers .section-title {
+    font-size: 30px;
+  }
+
+  .best-sellers .item-tab {
+    font-size: 12px;
+  }
+
+  .best-sellers .categories button,
+  .show-all {
+    font-size: 12px;
+    width: auto;
+    padding: 5px 10px;
+  }
+}
+/* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part ends */
+
+/* melikeunsaldi/BE-3/Footer-Section part begins */
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1320px;
+  margin: auto;
+  padding-block: 90px;
+}
+
+.left-footer {
+  max-width: 50ch;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.left-footer img {
+  max-width: 180px;
+  margin-top: 15px;
+}
+
+.left-footer p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(30, 40, 50, 0.75);
+  line-height: 21.79px;
+}
+.social-icons {
+  display: flex;
+  gap: 40px;
+}
+
+.social-icons a {
+  color: #1e2832;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-menu {
+  margin: 20px;
+}
+
+.footer-menu h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.footer-menu ul li a {
+  color: #1e2832;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  padding: 20px;
+  background-color: #1e2832;
+}
+.bottom-footer-content {
+  max-width: 1320px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.bottom-footer p,
+.scroll-to-top button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.scroll-to-top button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.scroll-to-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* melikeunsaldi/BE-3/Footer-Section part ends */
