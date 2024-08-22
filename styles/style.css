@@ -878,16 +878,11 @@
 
 /* berfinesenn/BE-22-newsletter-instagram Started*/
 .newsletter-instagram {
-  width: 1900px;
+  width: 1800px;
   height: 747px;
   margin: 0 auto;
   padding: 100px 300px 100px 300px;
   background-color: rgba(30, 40, 50, 0.05);
-}
-.newsletter-instagram .be-newsletter-instagram {
-  width: 1320px;
-  height: 319px;
-  margin: 0 auto;
 }
 .newsletter-instagram .newsletter-instagram-title {
   font-family: "Roboto";
