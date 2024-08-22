@@ -324,6 +324,9 @@
     justify-content: flex-start !important;
     gap: 20px;
   }
+  .products-detail-section .products-choose-size-div {
+    max-width: 1070px;
+  }
 }
 @media (max-width: 600px) {
   .products-detail-section {
@@ -345,25 +348,57 @@
     gap: 20px;
   }
 }
-@media (max-width: 600px) {
+
+@media (max-width: 500px) {
   .products-detail-section {
     flex-direction: column;
     gap: 10px;
-    margin: 15px;
-  }
-  .products-picture-others {
-    overflow-x: auto;
-  }
-  .products-choose-size-div {
-    align-items: center;
-    padding: 20px;
+    margin: 25px;
   }
   .products-card-div {
     padding: 10px 20px;
   }
-  .products-description-main-div {
-    justify-content: flex-start !important;
-    gap: 20px;
+  .products-detail-section .products-header {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .products-detail-section .products-size {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .products-detail-section .color-pink {
+    width: 30px;
+    height: 30px;
+    background-color: #ac8387;
+    border-radius: 50px;
+  }
+  .products-detail-section .products-choose-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .products-detail-section .products-description-title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .products-detail-section .products-description-p1 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .products-detail-section .products-description-p2 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .products-detail-section .products-price {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .products-detail-section .products-card-div {
+    padding: 8px 20px;
+    gap: 12px;
+  }
+  .products-detail-section .products-card-title {
+    font-size: 16px;
+    line-height: 10px;
   }
 }
 /*melekmahmutoglu/BE-18-19/Product-Detail-And-Image-Album- End*/
