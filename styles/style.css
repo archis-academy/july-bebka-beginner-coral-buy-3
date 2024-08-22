@@ -931,11 +931,11 @@
 }
 /* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part ends */
 
-/* melikeunsaldi/BE-3/Footer-Section part begins */
+/* melikeunsaldi/BE-3/BE-14/Footer-Section part begins */
 .top-footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
   max-width: 1320px;
   margin: auto;
   padding-block: 90px;
@@ -946,6 +946,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-left: 20px;
 }
 
 .left-footer img {
@@ -958,7 +959,6 @@
   font-weight: 400;
   font-size: 16px;
   color: rgba(30, 40, 50, 0.75);
-  line-height: 21.79px;
 }
 .social-icons {
   display: flex;
@@ -1014,7 +1014,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
 }
 
 .bottom-footer p,
@@ -1036,4 +1035,75 @@
   align-items: center;
   gap: 10px;
 }
-/* melikeunsaldi/BE-3/Footer-Section part ends */
+
+@media screen and (max-width: 1155px) {
+  .top-footer {
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .top-footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .left-footer {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 40px 0px;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .footer-menu {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .left-footer p,
+  .footer-menu h3,
+  .scroll-to-top button {
+    font-size: 14px;
+  }
+
+  .footer-menu {
+    margin: 20px 0;
+  }
+
+  .bottom-footer-content img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .top-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .social-icons {
+    gap: 30px;
+  }
+
+  .footer-menu {
+    margin: 15px 0;
+  }
+  .last-menu {
+    grid-column: 1 / -1;
+  }
+
+  .bottom-footer {
+    padding: 10px;
+  }
+  .bottom-footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .bottom-footer-content img {
+    width: 50%;
+  }
+}
+/* melikeunsaldi/BE-3/BE-14/Footer-Section part ends */
