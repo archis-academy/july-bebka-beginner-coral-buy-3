@@ -270,7 +270,7 @@
   align-items: center;
 }
 .hotcategorytext {
-  font-family: "Roboto";
+  font-family: "Roboto" , sans-serif;
   display: flex;
   padding: 5px;
   writing-mode: vertical-rl;
@@ -278,6 +278,7 @@
   font-size: 34px;
   position: absolute;
   left: -52px;
+  top: 30px ;
 }
 .grid-hotcategory {
   margin-inline: auto;
@@ -312,7 +313,7 @@
   line-height: normal;
   padding: 5px;
   width: 52px;
-  font-family: "open sans";
+  font-family: "open sans" , sans-serif;
 }
 /* END Cerenucakb/BE-4-Hot-Category-Grid */
 /* BERFİN ESEN [BE-1] Grid Products Started*/
