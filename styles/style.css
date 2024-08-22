@@ -983,7 +983,8 @@
 
 @media screen and (max-width: 1155px) {
   .top-footer {
-    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    gap: 30px;
   }
 }
 
