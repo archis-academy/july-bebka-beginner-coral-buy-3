@@ -260,7 +260,62 @@
   margin-inline: auto;
 }
 /* END Cerenucakb/BE-7-Brand-Logos */
-
+/* Cerenucakb/BE-4-Hot-Category-Grid */
+.flex-hotcategory-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.hotcategorytext {
+  font-family: "Roboto" , sans-serif;
+  display: flex;
+  padding: 5px;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  font-size: 34px;
+  position: absolute;
+  left: -52px;
+  top: 30px ;
+}
+.grid-hotcategory {
+  margin-inline: auto;
+  max-width: 1320px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  position: relative;
+}
+.largeimage {
+  grid-row: span 2;
+  width: 100%;
+  height: auto;
+}
+.smallimage {
+  max-width: 317px;
+  width: 100%;
+  height: auto;
+}
+.relative-hotcategory {
+  position: relative;
+}
+.saletext {
+  top: 20px;
+  display: flex;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  align-items: flex-start;
+  line-height: normal;
+  padding: 5px;
+  width: 52px;
+  font-family: "open sans" , sans-serif;
+}
+/* END Cerenucakb/BE-4-Hot-Category-Grid */
 /* BERFİN ESEN [BE-1] Grid Products Started*/
 .product-view-template {
   font-family: "Open Sans", sans-serif;
