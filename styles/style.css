@@ -270,7 +270,7 @@
   align-items: center;
 }
 .hotcategorytext {
-  font-family: "Roboto" , sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   padding: 5px;
   writing-mode: vertical-rl;
@@ -278,7 +278,7 @@
   font-size: 34px;
   position: absolute;
   left: -52px;
-  top: 30px ;
+  top: 30px;
 }
 .grid-hotcategory {
   margin-inline: auto;
@@ -313,7 +313,7 @@
   line-height: normal;
   padding: 5px;
   width: 52px;
-  font-family: "open sans" , sans-serif;
+  font-family: "open sans", sans-serif;
 }
 /* END Cerenucakb/BE-4-Hot-Category-Grid */
 /* BERFİN ESEN [BE-1] Grid Products Started*/
@@ -508,7 +508,7 @@
   .product-grid .product-card img {
     width: 200px;
     height: 350px;
-  } 
+  }
   .product-grid .top-product {
     width: 200px;
   }
@@ -608,7 +608,6 @@
   }
   .product-grid .top-product {
     width: 250px;
-
   }
   .product-grid .product-title {
     font-size: 11px;
@@ -637,16 +636,16 @@
   }
   .product-view-template .li-item {
     font-size: 11px;
-}
+  }
   .product-view-template .button-1 {
     padding: 3px 8px 1px 8px;
   }
-  .product-view-template .button-1 img{
+  .product-view-template .button-1 img {
     width: 13px;
   }
   .product-view-template span.filter-2 {
     font-size: 11px;
-}
+  }
   .product-grid {
     max-width: 525px;
   }
@@ -666,13 +665,14 @@
     margin-top: -140px;
   }
   .product-grid .product-title {
-    font-size: 9px;
+    font-size: 10px;
+    width: 150px;
   }
   .product-grid .product-type {
-    font-size: 9px;
+    font-size: 10px;
   }
   .product-grid .product-price {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 415px) {
@@ -683,14 +683,14 @@
     width: 230px;
   }
   .product-view-template .li-item {
-    font-size: 9px;
-}
-  .product-view-template .button-1 img{
+    font-size: 10px;
+  }
+  .product-view-template .button-1 img {
     width: 10px;
   }
   .product-view-template span.filter-2 {
-    font-size: 9px;
-}
+    font-size: 10px;
+  }
   .product-grid {
     max-width: 425px;
   }
@@ -701,7 +701,7 @@
     width: 35px;
     padding: 3px;
     font-size: 10px;
-}
+  }
   .product-grid .product-card img {
     width: 150px;
     height: 210px;
@@ -720,16 +720,7 @@
     font-size: 15px;
   }
   .product-view-template .category-1 {
-    width: 150px;
-  }
-  .product-view-template .li-item {
-    font-size: 7px;
-  }
-  .product-view-template .button-1 img {
-    width: 9px;
-  }
-  .product-view-template span.filter-2 {
-    font-size: 7px;
+    width: 200px;
   }
   .product-grid .top-product {
     width: 100px;
@@ -738,30 +729,10 @@
     width: 25px;
     padding: 2.5px;
     font-size: 7px;
+  }
+
 }
-  .product-grid .product-card img {
-    width: 100px;
-    height: 150px;
-  }
-  .product-grid .product-card {
-    width: 100px;
-    height: 180px;
-  }
-  .product-grid .bottom-product {
-    width: 100px;
-    margin-top: -260px;
-  }
-  .product-grid .product-title {
-    font-size: 6px;
-  }
-  .product-grid .product-type {
-    font-size: 6px;
-  }
-  .product-grid .product-price {
-    font-size: 6px;
-  }
-}
-@media screen and (max-width: 255px) {
+/*@media screen and (max-width: 255px) {
   .product-view-template .grid-product-section-title h2 {
     font-size: 11px;
   }
@@ -787,7 +758,7 @@
     width: 20px;
     padding: 2px;
     font-size: 5px;
-}
+  }
   .product-grid .product-card img {
     width: 80px;
     height: 130px;
@@ -1423,7 +1394,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .left-footer p,
   .footer-menu h3,
   .scroll-to-top button {
