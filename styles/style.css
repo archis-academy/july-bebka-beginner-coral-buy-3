@@ -260,7 +260,62 @@
   margin-inline: auto;
 }
 /* END Cerenucakb/BE-7-Brand-Logos */
-
+/* Cerenucakb/BE-4-Hot-Category-Grid */
+.flex-hotcategory-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.hotcategorytext {
+  font-family: "Roboto" , sans-serif;
+  display: flex;
+  padding: 5px;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  font-size: 34px;
+  position: absolute;
+  left: -52px;
+  top: 30px ;
+}
+.grid-hotcategory {
+  margin-inline: auto;
+  max-width: 1320px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  position: relative;
+}
+.largeimage {
+  grid-row: span 2;
+  width: 100%;
+  height: auto;
+}
+.smallimage {
+  max-width: 317px;
+  width: 100%;
+  height: auto;
+}
+.relative-hotcategory {
+  position: relative;
+}
+.saletext {
+  top: 20px;
+  display: flex;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  align-items: flex-start;
+  line-height: normal;
+  padding: 5px;
+  width: 52px;
+  font-family: "open sans" , sans-serif;
+}
+/* END Cerenucakb/BE-4-Hot-Category-Grid */
 /* BERFİN ESEN [BE-1] Grid Products Started*/
 .product-view-template {
   font-family: "Open Sans", sans-serif;
@@ -875,7 +930,6 @@
   }
 }
 /* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part ends */
-
 /* berfinesenn/BE-22-newsletter-instagram Started*/
 .newsletter-instagram {
   width: 1800px;
@@ -900,12 +954,11 @@
   margin-top: 49px;
 }
 /* berfinesen/BE-22-newsletter-instagram Finished*/
-
-/* melikeunsaldi/BE-3/Footer-Section part begins */
+/* melikeunsaldi/BE-3/BE-14/Footer-Section part begins */
 .top-footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
   max-width: 1320px;
   margin: auto;
   padding-block: 90px;
@@ -916,6 +969,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-left: 20px;
 }
 
 .left-footer img {
@@ -928,7 +982,6 @@
   font-weight: 400;
   font-size: 16px;
   color: rgba(30, 40, 50, 0.75);
-  line-height: 21.79px;
 }
 .social-icons {
   display: flex;
@@ -984,7 +1037,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
 }
 
 .bottom-footer p,
@@ -1006,4 +1058,75 @@
   align-items: center;
   gap: 10px;
 }
-/* melikeunsaldi/BE-3/Footer-Section part ends */
+
+@media screen and (max-width: 1155px) {
+  .top-footer {
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .top-footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .left-footer {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 40px 0px;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .footer-menu {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .left-footer p,
+  .footer-menu h3,
+  .scroll-to-top button {
+    font-size: 14px;
+  }
+
+  .footer-menu {
+    margin: 20px 0;
+  }
+
+  .bottom-footer-content img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .top-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .social-icons {
+    gap: 30px;
+  }
+
+  .footer-menu {
+    margin: 15px 0;
+  }
+  .last-menu {
+    grid-column: 1 / -1;
+  }
+
+  .bottom-footer {
+    padding: 10px;
+  }
+  .bottom-footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .bottom-footer-content img {
+    width: 50%;
+  }
+}
+/* melikeunsaldi/BE-3/BE-14/Footer-Section part ends */
