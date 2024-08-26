@@ -719,68 +719,29 @@
   .product-view-template .grid-product-section-title h2 {
     font-size: 15px;
   }
+  .product-grid .product-card {
+    width: 140px;
+    height: 280px;
+  }
   .product-view-template .category-1 {
     width: 200px;
   }
   .product-grid .top-product {
-    width: 100px;
+    width: 140px;
+  }
+  .product-grid .top-product img {
+    width: 140px;
   }
   .product-grid .ribbon {
     width: 25px;
     padding: 2.5px;
     font-size: 7px;
   }
-
-}
-/*@media screen and (max-width: 255px) {
-  .product-view-template .grid-product-section-title h2 {
-    font-size: 11px;
-  }
-  .product-view-template .category-1 {
-    width: 120px;
-  }
-  .product-view-template .li-item {
-    font-size: 5px;
-  }
-  .product-view-template .button-1 {
-    padding: 2px 5px 1px 5px;
-  }
-  .product-view-template .button-1 img {
-    width: 7px;
-  }
-  .product-view-template span.filter-2 {
-    font-size: 5px;
-  }
-  .product-grid .top-product {
-    width: 100px;
-  }
-  .product-grid .ribbon {
-    width: 20px;
-    padding: 2px;
-    font-size: 5px;
-  }
-  .product-grid .product-card img {
-    width: 80px;
-    height: 130px;
-  }
-  .product-grid .product-card {
-    width: 80px;
-    height: 140px;
-  }
-  .product-grid .bottom-product {
-    width: 80px;
-    margin-top: -280px;
-  }
   .product-grid .product-title {
-    font-size: 4px;
-    height: 11px;
+    width: 120px;
+    height: 40px;
   }
-  .product-grid .product-type {
-    font-size: 4px;
-  }
-  .product-grid .product-price {
-    font-size: 4px;
-  }
+
 }
 /* BERFİN ESEN [BE-1] Grid Products Finished*/
 /* Melek Mahmutoğlu- [BE-6][Brand Banner Section] Css-Start*/
