@@ -172,13 +172,13 @@
 }
 
 .header-nav-top_main-capsule .frame_left {
-  left: 0%;
-  bottom: 25%;
+  left: 0;
+  bottom: 30%;
 }
 
 .header-nav-top_main-capsule .frame_right {
-  right: 0%;
-  bottom: 30%;
+  right: 0;
+  bottom: 35%;
 }
 
 .header-nav-top_main-capsule .top-main-content {
@@ -399,6 +399,71 @@
   }
 }
 
+@media (max-width: 540px) {
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 42px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 140px;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .header-nav-top_main-capsule .rectangle {
+    height: 380px;
+    width: 305px;
+  }
+
+  .header-nav-top_main-capsule .collection-image {
+    height: 380px;
+    width: 305px;
+  }
+
+  .header-nav-top_main-capsule .top-main-image {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 350px) {
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 14px;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 140px;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .header-nav-top_main-capsule .rectangle {
+    height: 335px;
+    width: 275px;
+  }
+
+  .header-nav-top_main-capsule .collection-image {
+    height: 335px;
+    width: 275px;
+  }
+
+  .header-nav-top_main-capsule .top-main-image {
+    margin-bottom: 10%;
+  }
+}
 /* #BE-8/ Hero Section - RESPONSİVE - / HilalSeyhan / Finished */
 
 /* Cerenucakb/BE-7-Brand-Logos */
