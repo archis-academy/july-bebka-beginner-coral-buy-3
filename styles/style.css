@@ -250,14 +250,13 @@
 }
 
 /* HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Finished*/
-
 /* Cerenucakb/BE-7-Brand-Logos */
 .brand-logos {
   width: 1320px;
   padding-block: 50px;
-  display: flex;
+  display:flex ;
   justify-content: space-around;
-  margin-inline: auto;
+  margin-inline: auto;  
 }
 /* END Cerenucakb/BE-7-Brand-Logos */
 /* Cerenucakb/BE-4-Hot-Category-Grid */
