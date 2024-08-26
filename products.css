@@ -163,7 +163,6 @@
   display: flex;
   gap: 60px;
   margin-top: 80px;
-  overflow-x: hidden;
 }
 .products-detail-section .products-pictures-div {
   display: flex;
@@ -314,7 +313,7 @@
 }
 @media (max-width: 1070px) {
   .products-detail-section {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   .products-pictures-div {
     margin: 0 auto;
@@ -327,7 +326,7 @@
     max-width: 1070px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .products-detail-section {
     flex-direction: column;
     gap: 10px;
@@ -359,7 +358,16 @@
     gap: 20px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
+  .products-pictures-div {
+    align-items: center;
+  }
+  .products-picture-big {
+    width: 350px;
+  }
+  .products-picture-others {
+    width: 350px;
+  }
   .products-detail-section {
     gap: 10px;
   }
@@ -384,7 +392,10 @@
     margin: 0 20px;
   }
   .products-picture-big {
-    width: 320px;
+    width: 240px;
+  }
+  .products-picture-others {
+    width: 240px;
   }
 }
 /*melekmahmutoglu/BE-18-19/Product-Detail-And-Image-Album- End*/
