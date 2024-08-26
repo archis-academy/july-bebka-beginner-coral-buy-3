@@ -3,31 +3,279 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coral Buy</title>
-    <!-- Fontlar Buraya Gelecek -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
+    <title>CORAL BUY</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Kodlar buraya gelecek -->
+    <!--HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Started-->
+    <div class="header-nav-top_main-capsule">
+      <div class="header">
+        <div class="left-section">
+          <div>
+            <form action="" class="header-form">
+              <input type="search" required class="header-form-input" />
+              <i class="fa fa-search header-form-fa"></i>
+              <button onclick="clearInput()" class="header-form-button">Clear</button>
+            </form>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="#"><img src="images/header/logo.png" alt="coral_logo" /></a>
+        </div>
+        <div class="right-section">
+          <a href="#"><i class="fas fa-user fa-lg"></i> Account</a>
+          <a href="#"><i class="fas fa-shopping-bag fa-lg"></i> Shopping</a>
+        </div>
+      </div>
+      <div class="nav">
+        <ul class="menu">
+          <li><a href="#">Jewelry & Accessories</a></li>
+          <li><a href="#">Clothing & Shoes</a></li>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Wedding & Party</a></li>
+          <li><a href="#">Toys & Entertainment</a></li>
+          <li><a href="#">Art & Collectibles</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+        </ul>
+      </div>
+      <div class="top-main-capsule">
+        <img src="images/top_main/frame_left.svg" alt="Collection Image" class="frame_left" />
+        <img src="images/top_main/frame_right.svg" alt="Collection Image" class="frame_right" />
+        <section class="top-main">
+          <div class="top-main-content">
+            <div>
+              <h1>Collections</h1>
+              <br />
+              <p>You Can Explore And Shop Many Different Collection From Various Brands Here.</p>
+              <br />
+              <a class="shop-now" href="#"
+                ><i class="fas fa-shopping-bag fa-sm" style="margin-right: 5px"></i> Shop Now</a
+              >
+            </div>
+          </div>
+          <div class="top-main-image">
+            <div class="rectangle"></div>
+            <img
+              src="images/top_main/engin_akyurt_unsplash1.svg"
+              alt="Collection Image"
+              class="collection-image"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/afc954cd5f.js" crossorigin="anonymous"></script>
+    <script>
+      const clearInput = () => {
+        const input = document.getElementsByTagName("input")[0];
+        input.value = "";
+      };
+    </script>
+    <!--HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Finished-->
+
     <!-- Cerenucakb/BE-7-Brand-Logos -->
-    <section class="brand-logos">
+     <section class="brand-logos">
       <img src="images/Brand Logos/brand-1.svg" alt="Brandlogo-1" />
       <img src="images/Brand Logos/brand-2.svg" alt="Brandlogo-2" />
       <img src="images/Brand Logos/brand-3.svg" alt="Brandlogo-3" />
       <img src="images/Brand Logos/brand-4.svg" alt="Brandlogo-4" />
       <img src="images/Brand Logos/brand-5.svg" alt="Brandlogo-5" />
     </section>
-    
     <!-- END Cerenucakb/BE-7-Brand-Logos -->
+     <!-- Cerenucakb/BE-4-Hot-Category-Grid -->
+    <section class="flex-hotcategory-container">
+      <div class="grid-hotcategory">
+        <p class="hotcategorytext">EXPLORE NEW AND POPULAR STYLES</p>
+        <img src="images/hot-category/kadinelbise.png" alt="Kadinelbise" class="largeimage" />
+        <img src="images/hot-category/erkekmodel.png" alt="Erkekmodel" class="smallimage" />
+        <div class="relative-hotcategory">
+          <img src="images/hot-category/kadinkazak.png" alt="Kadinkazak" class="smallimage" />
+          <div class="saletext">SALE</div>
+        </div>
+        <img
+          src="images/hot-category/kadinelbisecicekli.png"
+          alt="Ciceklielbise"
+          class="smallimage"
+        />
+        <img src="images/hot-category/erkekceket.png" alt="erkekceket" class="smallimage" />
+      </div>
+    </section>
+    <!-- END Cerenucakb/BE-4-Hot-Category-Grid -->
+    <!-- Product View Template Started -->
+    <div class="product-view-template">
+      <div class="grid-product-section-title">
+        <h2>Or Subscribe To The Newsletter</h2>
+      </div>
+      <div class="top-section-products-1">
+        <ul class="category-1">
+          <li class="li-item active">All Products</li>
+          <li class="li-item">T-shirt</li>
+          <li class="li-item">Hoodies</li>
+          <li class="li-item">Jacket</li>
+        </ul>
+        <button class="button-1">
+          <img src="images/Product-View-Template/strainer-icon.png" alt="Filter" />
+          <span class="filter-2">Filter</span>
+        </button>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="top-product">
+          <div class="ribbon" style="background: rgba(255, 111, 97, 1)">HOT</div>
+          <img src="images/Product-View-Template/image_product_3.jpeg" alt="Product 1" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Adicolor Classics Joggers</div>
+          <div class="product-details">
+            <div class="product-type">Dress</div>
+            <div class="product-price">$63.85</div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="top-product">
+          <img src="images/Product-View-Template/image_product_4.jpeg" alt="Product 2" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Nike Sportswear Futura Luxe</div>
+          <div class="product-details">
+            <div class="product-type">Bag</div>
+            <div class="product-price">$130.00</div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="top-product">
+          <img src="images/Product-View-Template/image_product_5.jpeg" alt="Product 3" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Geometric Print Scarf</div>
+          <div class="product-details">
+            <div class="product-type">Scarf</div>
+            <div class="price-container">
+              <div class="product-price">$53.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="top-product">
+          <div class="ribbon" style="background: rgba(30, 40, 50, 1)">SALE</div>
+          <img src="images/Product-View-Template/image_product.jpeg" alt="Product 4" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Yellow Reserved Hoodie</div>
+          <div class="product-details">
+            <div class="product-type">Dress</div>
+            <div class="price-container">
+              <div class="product-price old-price">$364.00</div>
+              <div class="product-price current-price">$155.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="top-product">
+          <div class="ribbon" style="background: rgba(255, 111, 97, 1)">HOT</div>
+          <img src="images/Product-View-Template/image-product-7.png" alt="Product 5" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Basic Dress Green</div>
+          <div class="product-details">
+            <div class="product-type">Dress</div>
+            <div class="product-price">$236.00</div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="top-product">
+          <div class="ribbon" style="background: rgba(30, 40, 50, 1)">SALE</div>
+          <img src="images/Product-View-Template/image-product-6.png" alt="Product 6" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Nike Air Zoom Pegasus</div>
+          <div class="product-details">
+            <div class="product-type">Shoe</div>
+            <div class="price-container">
+              <div class="product-price old-price">$220.00</div>
+              <div class="product-price current-price">$198.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="top-product">
+          <img src="images/Product-View-Template/image-product-1.png" alt="Product 7" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Nike Repel Miler</div>
+          <div class="product-details">
+            <div class="product-type">Dress</div>
+            <div class="product-price">$120.50</div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="top-product">
+          <div class="ribbon" style="background: rgba(255, 111, 97, 1)">HOT</div>
+          <img src="images/Product-View-Template/image-product-2.png" alt="Product 8" />
+        </div>
+        <div class="bottom-product">
+          <div class="product-title">Nike Sportswear Futura Luxe</div>
+          <div class="product-details">
+            <div class="product-type">Glasses</div>
+            <div class="price-container">
+              <div class="product-price">$160.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product View Template Finished -->
+    <!-- BE-6 Brand Banner Section Start -->
+    <section class="brand-banner-section">
+      <div class="bb-logo-name-image-div">
+        <img
+          class="bb-logo-name-image"
+          src="images/Brand-Banner/1024px-Zara_Logo 1.png"
+          alt="BE-6_Images logo"
+        />
+      </div>
+      <div class="brand-banner-content">
+        <img
+          class="bb-logo-name"
+          src="images/Brand-Banner/1024px-Zara_Logo 2.png"
+          alt="BE-6_Images logo"
+        />
+        <p class="brand-banner-text">
+          Lustrous yet understated. The new evening wear collection exclusively offered at the
+          reopened Giorgio Armani boutique in Los Angeles.
+        </p>
+        <a href="#" class="brand-banner-btn">See Collection</a>
+      </div>
+    </section>
+    <!-- BE-6 Brand Banner Section End-->
     <!-- melikeunsaldi/BE-20/Best-Sellers-Carousel part begins-->
     <section class="best-sellers">
       <div class="section-title">Best Sellers</div>
@@ -40,7 +288,6 @@
         </div>
         <button class="show-all">Show All</button>
       </div>
-
       <div class="best-sellers-slider">
         <div class="slider-arrow left-arrow">
           <img src="images/bestSellers/left-arrow.png" alt="Left Arrow" />
@@ -110,5 +357,66 @@
       </div>
     </section>
     <!-- melikeunsaldi/BE-20/Best-Sellers-Carousel part ends-->
+
+    <!-- melikeunsaldi/BE-3-Footer-Section part begins-->
+    <footer>
+      <div class="top-footer">
+        <div class="left-footer">
+          <img src="images/footer/logo.png" alt="logo" />
+          <p>
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor
+            Incididunt Ut Labore Et Dolore Magna Aliqua
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-menu">
+          <h3>CATALOG</h3>
+          <ul>
+            <li><a href="#">Necklaces</a></li>
+            <li><a href="#">Hoodies</a></li>
+            <li><a href="#">Jewelry Box</a></li>
+            <li><a href="#">T-Shirt</a></li>
+            <li><a href="#">Jacket</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h3>ABOUT US</h3>
+          <ul>
+            <li><a href="#">Our Producers</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu last-menu">
+          <h3>CUSTOMER SERVICES</h3>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Track Your Order</a></li>
+            <li><a href="#">Product Care & Repair</a></li>
+            <li><a href="#">Book An Appointment</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="bottom-footer-content">
+          <p>© 2022 Coral , Inc.</p>
+          <img src="images/footer/icons_payment.png" alt="payment" />
+          <div class="scroll-to-top">
+            <button>Scroll To Top</button>
+            <i class="fa-solid fa-arrow-up"></i>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    <!-- melikeunsaldi/BE-3-Footer-Section part ends-->
   </body>
 </html>
