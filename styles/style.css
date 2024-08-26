@@ -930,7 +930,30 @@
   }
 }
 /* melikeunsaldi/BE-20/BE-26/Best-Sellers-Carousel part ends */
-
+/* berfinesenn/BE-22-newsletter-instagram Started*/
+.newsletter-instagram {
+  width: 1800px;
+  height: 747px;
+  margin: 0 auto;
+  padding: 100px 300px 100px 300px;
+  background-color: rgba(30, 40, 50, 0.05);
+}
+.newsletter-instagram .newsletter-instagram-title {
+  font-family: "Roboto";
+  width: 1013px;
+  line-height: 59px;
+  font-size: 33px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+.newsletter-instagram .newsletter-instagram-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 49px;
+}
+/* berfinesen/BE-22-newsletter-instagram Finished*/
 /* melikeunsaldi/BE-3/BE-14/Footer-Section part begins */
 .top-footer {
   display: grid;
