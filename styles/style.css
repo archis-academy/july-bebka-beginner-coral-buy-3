@@ -1130,3 +1130,53 @@
   }
 }
 /* melikeunsaldi/BE-3/BE-14/Footer-Section part ends */
+
+
+/*<!-- busranurtur/NewsLetter part begins-->*/
+.title{
+  width: 707px;
+  height: 59px;
+  font-size: 50px;
+  display: inline;
+ 
+  font-family: "Roboto" , sans-serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 58.59px;
+  margin-bottom: auto;
+}
+
+.form{
+  margin-top: 489px;
+  margin-left: 517px;
+  display: flex;
+  width: 760px;
+  height: 165;
+  justify-content: center;
+  text-align: center;
+  border-style: none;
+}
+
+.input{
+  border: none;
+  border-bottom: 2px solid black;
+  width: 643px;
+  height: 32px;
+  outline: transparent;
+  
+  
+}
+.submit{
+  font-family:"Open Sans", sans-serif ;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 21.79px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 59px;
+  height: 22px;
+  outline: transparent;
+  align-items: center;
+
+}
