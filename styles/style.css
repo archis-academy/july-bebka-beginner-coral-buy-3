@@ -255,7 +255,7 @@
 
 @media (max-width: 1440px) {
   .header-nav-top_main-capsule .frame_left {
-    bottom: 30%;
+    bottom: 32%;
   }
 
   .header-nav-top_main-capsule .frame_right {
@@ -340,12 +340,12 @@
   }
 
   .header-nav-top_main-capsule .frame_left {
-    bottom: 20%;
+    bottom: 0%;
     max-width: 10%;
   }
 
   .header-nav-top_main-capsule .frame_right {
-    bottom: 60%;
+    bottom: 35%;
     max-width: 20%;
   }
 
