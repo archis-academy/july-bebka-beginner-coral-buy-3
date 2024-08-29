@@ -270,7 +270,9 @@
     grid-template-rows: auto auto auto; 
     justify-items: center;
   }
-
+  .brand-logos-img {
+    width: 150px;
+  }
   .brand-logos-img:nth-child(3) {
     grid-column: span 2; 
   }
