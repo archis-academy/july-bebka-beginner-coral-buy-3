@@ -476,20 +476,20 @@
   flex-wrap: wrap;
 }
 .brand-logos-img {
-  max-width: 200px; 
+  max-width: 200px;
 }
 @media (max-width: 650px) {
   .brand-logos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: auto auto auto; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
     justify-items: center;
   }
   .brand-logos-img {
     width: 150px;
   }
   .brand-logos-img:nth-child(3) {
-    grid-column: span 2; 
+    grid-column: span 2;
   }
 }
 /* END -Cerenucakb/BE-7-Brand-Logos */
@@ -548,6 +548,85 @@
   width: 52px;
   font-family: "open sans", sans-serif;
 }
+/* Cerenucakb-Melek Mahmutoğlu-BE-12-Hot-Category-Grid-Responsiveness-Start*/
+@media (max-width: 1500px) {
+  .grid-hotcategory {
+    max-width: 1000px;
+  }
+  .hotcategorytext {
+    font-size: 24px;
+  }
+  .smallimage {
+    max-width: 239px;
+  }
+}
+@media (max-width: 1250px) {
+  .grid-hotcategory {
+    max-width: 800px;
+  }
+  .hotcategorytext {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .smallimage {
+    max-width: 189px;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid-hotcategory {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    position: relative;
+    padding-top: 60px;
+  }
+
+  .largeimage {
+    grid-column: 1 / span 2;
+    grid-row: 1 / 3;
+  }
+
+  .smallimage {
+    max-width: 100%;
+    width: 100%;
+  }
+  .hotcategorytext {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+    writing-mode: horizontal-tb;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 700px) {
+  .grid-hotcategory {
+    max-width: 500px;
+  }
+  .hotcategorytext {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 550px) {
+  .grid-hotcategory {
+    max-width: 350px;
+  }
+  .hotcategorytext {
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .grid-hotcategory {
+    max-width: 280px;
+  }
+  .hotcategorytext {
+    font-size: 14px;
+  }
+}
+/* Cerenucakb-Melek Mahmutoğlu-BE-12-Hot-Category-Grid-Responsiveness-End*/
 /* END Cerenucakb/BE-4-Hot-Category-Grid */
 /* BERFİN ESEN [BE-1] Grid Products Started*/
 .product-view-template {
@@ -974,7 +1053,6 @@
     width: 120px;
     height: 40px;
   }
-
 }
 /* BERFİN ESEN [BE-1] Grid Products Finished*/
 /* Melek Mahmutoğlu- [BE-6][Brand Banner Section] Css-Start*/
