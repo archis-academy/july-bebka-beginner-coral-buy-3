@@ -253,13 +253,31 @@
 
 /* Cerenucakb/BE-7-Brand-Logos */
 .brand-logos {
-  width: 1320px;
+  max-width: 1320px;
   padding-block: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-inline: auto;
+  flex-wrap: wrap;
 }
-/* END Cerenucakb/BE-7-Brand-Logos */
+.brand-logos-img {
+  max-width: 200px; 
+}
+@media (max-width: 650px) {
+  .brand-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto auto auto; 
+    justify-items: center;
+  }
+  .brand-logos-img {
+    width: 150px;
+  }
+  .brand-logos-img:nth-child(3) {
+    grid-column: span 2; 
+  }
+}
+/* END -Cerenucakb/BE-7-Brand-Logos */
 /* Cerenucakb/BE-4-Hot-Category-Grid */
 .flex-hotcategory-container {
   margin-top: 50px;
