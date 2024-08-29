@@ -172,13 +172,13 @@
 }
 
 .header-nav-top_main-capsule .frame_left {
-  left: 0%;
-  bottom: 20%;
+  left: 0;
+  bottom: 30%;
 }
 
 .header-nav-top_main-capsule .frame_right {
-  right: 0%;
-  bottom: 25%;
+  right: 0;
+  bottom: 35%;
 }
 
 .header-nav-top_main-capsule .top-main-content {
@@ -250,6 +250,221 @@
 }
 
 /* HİLAL SEYHAN [BE/23-21-24] Header, Nav, Top Main Finished*/
+
+/* #BE-8/ Hero Section - RESPONSİVE - / HilalSeyhan / Started */
+
+@media (max-width: 1440px) {
+  .header-nav-top_main-capsule .frame_left {
+    bottom: 32%;
+  }
+
+  .header-nav-top_main-capsule .frame_right {
+    bottom: 35%;
+  }
+
+  .header-nav-top_main-capsule .top-main-content {
+    max-width: 65ch;
+  }
+
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 66px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 26px;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 200px;
+    height: 60px;
+    font-size: 26px;
+  }
+
+  .header-nav-top_main-capsule .rectangle {
+    height: 500px;
+    width: 392px;
+  }
+
+  .header-nav-top_main-capsule .collection-image {
+    height: 500px;
+    width: 392px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .header-nav-top_main-capsule .frame_left {
+    bottom: 35%;
+    max-width: 10%;
+  }
+
+  .header-nav-top_main-capsule .frame_right {
+    bottom: 40%;
+    max-width: 18%;
+  }
+
+  .header-nav-top_main-capsule .top-main-content {
+    max-width: 50ch;
+  }
+
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .header-nav-top_main-capsule .rectangle {
+    height: 470px;
+    width: 360px;
+  }
+
+  .header-nav-top_main-capsule .collection-image {
+    height: 470px;
+    width: 360px;
+  }
+}
+
+@media (max-width: 910px) {
+  .header-nav-top_main-capsule .frame_left,
+  .frame_right {
+    position: absolute;
+  }
+
+  .header-nav-top_main-capsule .frame_left {
+    bottom: 0%;
+    max-width: 10%;
+  }
+
+  .header-nav-top_main-capsule .frame_right {
+    bottom: 35%;
+    max-width: 20%;
+  }
+
+  .top-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 56px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 22px;
+    max-width: 100%;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 170px;
+    height: 50px;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 810px) {
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 50px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 160px;
+    height: 45px;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .header-nav-top_main-capsule .rectangle {
+    height: 426px;
+    width: 322px;
+  }
+
+  .header-nav-top_main-capsule .collection-image {
+    height: 426px;
+    width: 322px;
+  }
+}
+
+@media (max-width: 540px) {
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 42px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 140px;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .header-nav-top_main-capsule .rectangle {
+    height: 380px;
+    width: 305px;
+  }
+
+  .header-nav-top_main-capsule .collection-image {
+    height: 380px;
+    width: 305px;
+  }
+
+  .header-nav-top_main-capsule .top-main-image {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 350px) {
+  .header-nav-top_main-capsule .top-main-content h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+
+  .header-nav-top_main-capsule .top-main-content p {
+    font-size: 14px;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .header-nav-top_main-capsule .shop-now {
+    width: 140px;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .header-nav-top_main-capsule .rectangle {
+    height: 335px;
+    width: 275px;
+  }
+
+  .header-nav-top_main-capsule .collection-image {
+    height: 335px;
+    width: 275px;
+  }
+
+  .header-nav-top_main-capsule .top-main-image {
+    margin-bottom: 10%;
+  }
+}
+/* #BE-8/ Hero Section - RESPONSİVE - / HilalSeyhan / Finished */
 
 /* Cerenucakb/BE-7-Brand-Logos */
 .brand-logos {
