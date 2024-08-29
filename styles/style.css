@@ -1133,50 +1133,49 @@
 
 
 /*<!-- busranurtur/NewsLetter part begins-->*/
-.title{
-  width: 707px;
-  height: 59px;
+.form.title{
   font-size: 50px;
-  display: inline;
- 
   font-family: "Roboto" , sans-serif;
   text-align: center;
   font-weight: bold;
-  line-height: 58.59px;
-  margin-bottom: auto;
+  
+
 }
 
 .form{
-  margin-top: 489px;
-  margin-left: 517px;
+  padding-top: 50px;
+  margin-inline: auto;
   display: flex;
-  width: 760px;
-  height: 165;
+  gap: 50px;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  border-style: none;
+  align-items: center;
 }
 
-.input{
+.form.input{
   border: none;
   border-bottom: 2px solid black;
   width: 643px;
   height: 32px;
   outline: transparent;
+  background-color: transparent;
   
   
 }
-.submit{
+.form.submit{
   font-family:"Open Sans", sans-serif ;
-  font-weight: 400px;
   font-size: 16px;
-  line-height: 21.79px;
-  margin-bottom: 10px;
   border: none;
   border-bottom: 2px solid black;
-  width: 59px;
-  height: 22px;
+  width: 643px;
+  height: 32px;
   outline: transparent;
   align-items: center;
 
+}
+.form.content{
+  display: flex;
+  align-items: end;
+  gap: 40px;
 }
